@@ -1,0 +1,239 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요금안내-연간이용</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub3_content4.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual02.jpg" alt="">
+            <h3>요금안내</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub3_1.html">이용요금</a></li>
+                <li><a href="./sub3_2.html">할인정보</a></li>
+                <li><a href="./sub3_3.html">제휴카드</a></li>
+                <li class="curent"><a href="./sub3_4.html">연간이용</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 요금안내 &gt; <strong>연간이용</strong></div>
+                 <h2>연간이용</h2>
+            </div>
+            <div class="content_area">
+
+                <div class="annualpass">
+                    <ul>
+                        <li><p><span>레귤러</span><br>내 가족을 위한<br> 365일 행복찾기</p><img src="./images/content4/연간이용권2.png" alt="레귤러"></li>
+                        <li><p><span>뉴셀렉트</span><br>여유로운 가족<br> 나들이에 딱!</p><img src="./images/content4/연간이용권3.png" alt="뉴셀렉트"></li>
+                        <li><p><span>평일권</span><br>편안한 이용과 합리적인<br>가격의 스마트한 이용권</p><img src="./images/content4/연간이용권.png" alt="평일권"></li>
+                    </ul> 
+               
+                
+                <h3>에버랜드 연간 이용권 종류</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head">종류</th>
+                            <th class="head">구분</th>
+                            <th class="head">신규</th>
+                            <th class="head">재가입</th>
+                        </tr>
+                    </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td rowspan="2"><strong>레귤러<br>Regular</strong></td>
+                            <td>대인/청소년</td>
+                            <td>220,000</td>
+                            <td>170,000</td>
+                            
+                        </tr>
+                        <tr>
+                           
+                            <td>소인 (만3세~12세)</td>
+                            <td>180,000</td>
+                            <td>130,000</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2"><strong>뉴셀렉트<br>New Select</strong></td>
+                            <td>대인/청소년</td>
+                            <td>170,000</td>
+                            <td>170,000</td>
+                            
+                        </tr>
+                        <tr>
+                           
+                            <td>소인 (만3세~12세)</td>
+                            <td>130,000</td>
+                            <td>130,000</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2"><strong>평일권<br>Weekdays</strong></td>
+                            <td>대인/청소년</td>
+                            <td>130,000</td>
+                            <td>130,000</td>
+                            
+                        </tr>
+                        <tr>
+                           
+                            <td>소인 (만3세~12세)</td>
+                            <td>100,000</td>
+                            <td>100,000</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>시니어<br>Senior</strong></td>
+                            <td>만 55세 이상</td>
+                            <td>100,000</td>
+                            <td>100,000</td>
+                            
+                        </tr>
+                        <tr>
+                            <td><strong>뉴 베이비<br>New Baby</strong></td>
+                            <td>24개월 이상 ~ 36개월 미만</td>
+                            <td>80,000</td>
+                            <td>-</td>
+                        
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <dl>
+                    <dt>※ 재가입 및 연차 적용 기준</dt>
+                    <dd>&#42;재가입 혜택은 만기 후 1년 이내 가입 시 제공됩니다.(레귤러권 가입 한정)<br>
+                        단, 가입 시 재가입 혜택을 위한 개인정보 수집 및 이용 동의에 [거부]체크하신 경우 적용불가<br>
+                        예시) 21년 1월 1일 만기 → 22년 1월 1일 이전 가입시 재가입 혜택 적용</dd>
+                        <dd>&#42;뉴셀렉트/평일권 가입 시 연차는 인정되나 혜택은 제공이 불가합니다. (추후 레귤러권 가입 시 혜택 적용 가능)</dd>
+                        <dd>&#42;연간이용권 종류 및 재가입/리워즈 혜택은 회사 방침에 따라 조정/변경될 수 있습니다.</dd>
+                        <dd>&#42;소인 : 만 3세 ~ 12세, 시니어 : 만 55세 이후 가입 가능합니다.<br>
+                            소인, 시니어 신규 가입 시에는 나이 확인을 위한 증빙서류 제시가 필요합니다.</dd>
+                    <dt>※ 가입방법</dt>   
+                    <dd><span>1) 스마트예약 + 현장방문 결제 (증빙서류 확인)</span></dd> 
+                    <dd><span>2) 현장방문 가입/결제</span></dd> 
+                    <dd>∙ 소인 확인 서류 &#45;주민등록등본, 건강보험증<br>
+                        ∙ 시니어 확인 서류 &#45;주민등록증, 자동차 운전 면허증, 여권<br>
+                        단, 재가입 시에는 스마트예약 및 발급 예정일 지정 후 연간이용권 서비스센터 방문 없이 이용 가능합니다.</dd> 
+                        
+                    <dd>&#42;생후 36개월 미만은 무료입장은 가능하나, 어린이 전용시설 이용 시에는 별도의 요금을 지불하셔야 합니다.</dd>   
+                    <dd>&#42;뉴베이비권은 생애 1회 한해 가입 가능하며, 만기 이전 해지하실 경우 해당 권종으로의 재가입은 불가합니다.<br>
+                        ※ 가입방법<br>
+                        현장방문 가입/결제 	&#40;생년월일 확인 가능한 증빙서류 확인&#45;주민등록등본, 가족관계증명서 등&#41;</dd>
+                    
+                    <dd>※ 셀렉트(단종).뉴셀렉트, 평일권 이용 불가일에는 가입을 하시더라도 당일 입장 불가합니다.<br>
+                        (셀렉트(단종).뉴셀렉트, 평일권 이용 불가일에는 개인 매표소에서 연간이용권 제시 후 본인에 한해<br>
+                        당일 이용권 40% 할인 적용 가능)</dd>
+
+                </dl>
+
+                <div class="kinds">
+                    <h3>권종별 혜택(본인에 한하여 적용됨)</h3>
+                    <p>※ 이용권 종류별 혜택 및 재가입에 따른 부가 혜택은 회사의 방침에 따라 조정/변경될 수 있습니다.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="head">종류</th>
+                                <th class="head">내용</th>
+                            </tr>
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                                <td><strong>공통</strong></td>
+                                <td class="list">-에버랜드 1년 이용 (단, 뉴셀렉트 약 320여일/평일권 250여일) *21년 기준 <br>
+                                    -호암미술관/교통박물관 무료 이용 (사정에 따라 휴장할 수 있음)<br>
+                                    -캐리비안 베이 하이/골드시즌 10%, 기타 시즌 20% 우대<br>
+                                    -외부 제휴혜택 (제휴혜택 페이지 참조)<br>
+                                    -드림포인트 적립 (미입장 시 적립 및 사용 불가합니다.)<br>
+                                    -가입기간 내 이벤트 참여 기회 제공</td>
+                            </tr>
+                           
+                            <tr>
+                                <td><strong>레귤러<br>(연차 혜택)</strong></td>
+                                <td class="list">공통 혜택 외, 재가입시<br>
+                                    - 가입비 5만원 할인<br>
+                                    3~4년차<br>
+                                    - 가입비 5만원 할인<br>
+                                    - 드림포인트 10,000점 적립<br>
+                                    5년차 이상<br>
+                                    - 가입비 5만원 할인<br>
+                                    - 드림포인트 30,000점 적립)</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>뉴셀렉트<br>New Select</strong></td>
+                                <td class="list">이용가능일 약 320여일(A기간 이용불가)<br>
+                                    불가일 이용 시 본인 이용권 40% 우대 적용 (에버랜드 정문 매표소 구입 가능)</td>
+                            </tr>
+                           
+                            <tr>
+                                <td><strong>평일권<br>Weekdays</strong></td>
+                                <td class="list">이용가능일 약 250일(주말/법정 공휴일(임시공휴일 포함)이용불가)<br>
+                                    불가일 이용 시 본인 이용권 40% 우대 적용 (에버랜드 정문 매표소 구입 가능)</td>
+                                
+                            </tr>
+                           
+                            <tr>
+                                <td><strong>뉴 베이비<br>New Baby</strong></td>
+                                <td class="list">전용 목걸이 회원증 제공<br>
+                                    유아 전용 어트랙션 3종 무료 이용(자동차왕국, 붕붕카, 로보트카)<br>
+                                    웰컴기프트 (음료컵 + 드링크) 1회 제공(파크 상황에 따라 변경 가능)<br>
+                                    10회 이상 방문 시 드림포인트 5,000점 제공(월별 순차 제공)<br>
+                                    뉴베이비권 만기 후 레귤러권 가입 시 재가입 할인혜택 적용</td>
+                               
+                            </tr>
+                    
+                        </tbody>
+                    
+                    </table>
+                </div>
+
+               
+        
+        
+        
+         
+
+            
+
+               
+        
+
+        
+                
+        </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+
+</body>
+</html>

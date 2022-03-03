@@ -1,0 +1,32 @@
+body{background: #f5f5f5;font-family: 'Nanum Gothic', sans-serif;}
+.logo a {display: block; width: 278px; height: 68px; background: url(../images/logo.png) no-repeat top center; text-indent: -999%;
+    overflow: hidden; margin: 0 auto; position: absolute; top: 50px; left: 50%; margin-left: -144px;}
+#content {width: 600px; margin: 0 auto; margin-top: 150px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 150px;
+    text-align: center; padding: 30px 0; background: #fff;box-shadow: 10px 10px 20px rgb(0 0 0 / 5%);}
+#content h2 {text-align: center; font-size: 35px; margin-top: 60px; margin-bottom: 70px;}
+input {padding: 0 10px; border: 1px solid #ccc; width: 70%; height: 50px; outline: 0; margin-bottom: 20px; box-sizing: border-box;}
+ul li:nth-of-type(2) input{margin-bottom: 40px;}
+ul.find{text-align: right; width: 70%; margin: 30px 15%;}
+ul.find li{display: inline-block;}
+ul.find li a{font-size: 16px; color: #999; transition:  all .4s;}
+ul.find li:hover a{color: #333;}
+ul.find li:first-of-type{margin-right: 20px;}
+
+.login_button{display: inline-block;width: 70%;height: 50px;box-sizing: border-box; line-height: 24px;
+    padding: 8px 0; background: #f07404;color: #fff;font-size: 16px;margin: 0 5px; cursor: pointer;border: none;}
+#join_button {width: 70%; margin: 50px auto; text-align: center; }
+#join_button strong{display: block; margin-bottom: 10px;}
+#join_button p{ color: #333; margin-right: 15px; }
+#join_button .joinUs{display: block; color: #666; font-size: 16px; border: 1px solid #ccc; 
+    transition: all .5s; margin: 20px 0 0; line-height: 45px;}
+#join_button .joinUs:hover{color: #f07404; border: 1px solid #f07404;}
+
+/* 아이디찾기 */
+#hp1{padding: 0 10px;}
+#id_pw_input ul li.tel{width: 70%; margin: 0 auto;}
+#id_pw_input ul li.tel .find_input{width: 30.9%; height: 50px;}
+
+.loadtexton{display: block;margin: 50px auto; text-align: center; font-size: 1.1rem; padding: 30px; background: #f7f7f7; width: 70%; line-height: 2rem;}
+.loadtexton p{margin-top: 20px;}
+.loadtexton strong:nth-of-type(2){font-size: 1.5rem;}
+

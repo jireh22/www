@@ -1,0 +1,99 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에버랜드-Editor's pick</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub1_content5.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>에버랜드</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub1_1.html">에버랜드 소개</a></li>
+                <li><a href="./sub1_2.html">연혁</a></li>
+                <li><a href="./sub1_3.html">경영방침</a></li>
+                <li><a href="./sub1_4.html">에버랜드스토리</a></li>
+                <li class="curent"><a href="./sub1_5.html">Editor's pick</a></li>
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 에버랜드 &gt; <strong>Editor's pick</strong></div>
+                 <h2>Editor's pick</h2>
+            </div>
+            
+            <div class="content_area">
+        
+                <div class="intro">
+                    <img src="./images/content5/panda.jpg" alt="아이바오와 러바오">
+                    <p class="point">
+                        <span>매일 매일이 즐거워~ <strong>에버랜드</strong>이야기</span>
+                    </p>
+                    
+                </div>
+
+                <div class="live_movie">
+                
+                   <div class="box">
+                        <ul>
+                            <li><img src="./images/content5/pick_01.jpg" alt="대나무 먹방 ASMR"><a href="#">대나무 먹방 ASMR <br>
+                             판다가족 힐링타임</a></li>
+                            <li ><img src="./images/content5/pick_02.jpg" alt="네잎클로버보다"><a href="#">네잎클로버보다<br>
+                             세잎클로버가 더 좋다?!</a></li>
+                            <li><img src="./images/content5/pick_03.jpg" alt="아기판다의 하루"><a href="#">아기판다의 하루<br>
+                             푸바오 생활계획표</a></li>
+                            <li><img src="./images/content5/pick_04.jpg" alt="아기호랑이 오둥이"><a href="#">아기호랑이 오둥이<br>
+                             5범5색 관찰캠</a></li>
+                            <li><img src="./images/content5/pick_05.jpg" alt="에버랜드 CAST의"><a href="#">에버랜드 CAST의<br> 
+                             온도차이!!?</a></li>
+                            <li><img src="./images/content5/pick_06.jpg" alt="달콤살벌 trick or treat"><a href="#">달콤살벌 <br>trick or treat</a></li>
+                            <li><img src="./images/content5/pick_07.jpg" alt="에버랜드 방문 전 확인!"><a href="#">에버랜드 방문 전 확인!<br> 
+                             영상 내비게이션 </a></li>
+                            <li><img src="./images/content5/pick_08.jpg" alt="에버랜드가 전하는 응원"><a href="#">에버랜드가 전하는 응원<br>
+                             #덕분에챌린지#국민덕분에</a></li>
+                            <li><img src="./images/content5/pick_09.jpg" alt="새로운 소식으로 다시만나요!"><a href="#">새로운 소식으로 다시만나요!
+                            </a></li>
+                            <li><img src="./images/content5/pick_10.jpg" alt="새로운 소식으로 다시만나요!"><a href="#">새로운 소식으로 다시만나요!
+                            </a></li>
+                            <li><img src="./images/content5/pick_11.jpg" alt="새로운 소식으로 다시만나요!"><a href="#">새로운 소식으로 다시만나요!
+                            </a></li>
+                            <li><img src="./images/content5/pick_12.jpg" alt="새로운 소식으로 다시만나요!"><a href="#">새로운 소식으로 다시만나요!
+                            </a></li>    
+                        </ul>
+                   </div>
+
+
+                </div>
+
+            </div>
+        </article>
+        
+          
+    <? include "../common/sub_footer.html"?>
+    
+</body>
+</html>

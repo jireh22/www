@@ -1,0 +1,42 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+#content .content_area{text-align:center;position: relative;}
+#content .content_area>p{font-family: 'Nanum Gothic'; font-size:26px; font-weight: bold;}
+
+#content .content_area .inquiry ul{margin-top: 30px;border: 1px solid #ccc; padding: 50px;text-align:justify;margin-bottom: 100px;}
+#content .content_area .inquiry ul li{font-family: 'Nanum Gothic'; font-size:20px; line-height:1.8em;}
+#content .content_area .inquiry ul li .num{padding: 2px 0 0 11px; width: 24px; height: 34px; display: inline-block; 
+    background: #f07404; margin-right: 10px; color: #fff; border-radius: 50%; font-size: 20px;}
+/* 메일 */
+
+#content #contactForm{border-top: 2px solid #f07404; margin: 30px 0 100px;}
+#content .title_area .text>span{color: #f07404;}
+#content .title_area .text{ font-family: 'Nanum Gothic', sans-serif; text-align: center; font-size: 18px;
+margin-bottom: 20px;}
+#content .title_area .text:nth-last-child(1){margin-bottom: 80px;}
+#content .row{font-family: 'Nanum Gothic', sans-serif; overflow: hidden; border-bottom: 1px solid #ccc;
+    padding: 40px 0; overflow: hidden;}
+#content .row label{padding-left:20px ;padding-top: 7px; float: left; position: relative; width: 200px;}
+#content .row label::after {content: '*'; display: block; color: #e60012; font-size: 22px; font-weight: 600;
+    position: absolute; top: 4px; right: 25px;}
+#content .form-control{outline: 0; font-family: 'Nanum Gothic', sans-serif;border: none; background: #f4f4f4; float: right; width: 950px; padding: 10px 0 10px 20px;}
+#content .last{border-bottom: none;}
+#content .buttons{overflow: hidden; width: 420px;  margin: 50px auto 0;}
+#content .help{height: 300px;}
+#content .mail_content .help-block ul {position: relative;}
+#content .mail_content .help-block li {position: absolute; top: 7px; right: 15px; font-size: 16px; color: #f07404;
+    font-weight: 400;}
+#content .send{margin-right: 20px;}
+#content .send button{width: 130px; display: block; margin: 0 auto; font-size: 16px; padding: 15px 0;
+    border-radius: 5px; border: 0; color: #fff; font-weight: 600; outline: none; background: #f07404;
+    cursor: pointer; transition: .1s;}
+#content .send button:hover{background: #f4f4f4; color: #f07404;}
+#content .cancel a{display: block; padding: 15px 0; text-align: center; font-size: 16px; background: #f9f9f9;
+ border: 1px solid #ccc; border-radius: 10px; color: #666; font-weight: 600;}
+#success{font-family: 'Nanum Gothic', sans-serif;}
+.alert{position: relative;}
+.alert strong{text-align: center; display: block; font-size: 16px; width: 375px; position: absolute;
+    top: 3px; left: 50%; margin-left: -195px;}
+.alert .close{display: none;}
+
+

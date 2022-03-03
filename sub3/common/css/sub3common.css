@@ -1,0 +1,31 @@
+/* sub1 공통 - 비주얼/ 서브네비/타이틀영역 */
+
+.visual{width: 2000px; margin-top: 185px; position: relative;
+    left: 50%; margin-left: -1000px;}
+.visual h3{position: absolute; text-align: center; 
+    font-size: 34px; left:0; top:150px; width: 100%; color: #fff;}
+
+
+.sub_menu{width: 1200px; margin: 0 auto;position: relative; top:1px; margin-top: -73px;}
+.sub_menu ul{ overflow: hidden; width: 1000px; margin: 0 auto;}
+.sub_menu li{float: left; width: 250px;}
+.sub_menu li a{display: block; font-size: 20px;  padding: 25px 30px ; font-family: 'Nanum Gothic';
+    background: rgb(255,255,255,.9); text-align: center; transition: all .5s;}
+.sub_menu li a:hover{background: #f07404; color: #fff; font-weight: bold;}
+.sub_menu .curent a{background: #f07404; color: #fff; font-weight: bold;}
+
+
+
+#content{width: 1200px; margin: 0 auto;}
+#content .title_area{position: relative; padding-top: 150px; overflow: hidden;}
+#content .line_map{position: absolute; right: 15px; top:40px; font-family: 'Nanum Gothic';}
+#content h2{text-align: center; font-size:  50px; margin-bottom: 175px; font-family: 'Nanum Gothic';}
+#content h2::after{content: ''; display: block; width: 1px; height: 100px; background: #c2c2c2; position: absolute; bottom: 40px; left: 50%;}
+
+
+#content .content_area{width: 1200px;margin: 0 auto;}
+
+
+/* top move */
+.topMove{display: block; position: fixed;left: 50%;margin-left: 650px; bottom: 320px; z-index: 50;}
+.topMove i {font-size: 50px; color:#f07404;}

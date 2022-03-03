@@ -1,0 +1,93 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+
+.intro{text-align:center;}
+.intro h3{text-align:center; font-size: 48px; margin: 180px 0 0; line-height:1.3; font-family: 'Nanum Gothic'; font-weight: bold;}
+.intro p{margin:85px 0; line-height:2; text-align:justify; font-size: 20px; font-family: 'Nanum Gothic';}
+.intro p span{color:#f07404;}
+
+#content .content_area ul{overflow: hidden; border: 1px solid #ccc; width: 1100px; margin: 0 0 60px 50px; }
+#content .content_area ul li{float: left; width: 20%;}
+#content .content_area ul li a{display: block; text-align: center;font-size: 24px;padding: 25px 0; 
+   font-family: 'Nanum Gothic'; border-right: 1px solid #ccc ; transition: all .5s;}
+#content .content_area ul li:hover a{background: #fff; color: coral; border: 1px solid coral;}    
+#content .content_area ul li .tab1_curent{background: coral; color: #fff;border: 1px solid coral;}
+#content .content_area ul li:hover .tab1_curent{ background: coral; color: #fff;}
+
+
+
+
+.item_thema{}
+
+
+#content .item_thema { margin-top: 150px; font-family: 'Nanum Gothic';overflow: hidden; box-sizing: border-box ; background: #fffbef; padding: 20px;}
+#content .item_thema h4{font-size: 100px; font-family: 'roboto'; font-weight:bold; color: #ccc;padding: 50px 0 0; text-transform: capitalize;}
+#content .item_thema p{font-size: 20px;line-height:2; text-align:justify; margin: 40px 0 50px; font-family: 'Nanum Gothic';}
+#content .item_thema p span{background:linear-gradient(to top, #ffc400 40%, transparent 40%);font-weight:bold;}
+#content .item_thema .float_box p {padding: 50px 0 0; float: right; width: 610px;font-family: 'Nanum Gothic';}
+#content .item_thema .float_box p span{color: #3c70e0;}
+#content .item_thema .float_box p strong{font-size: 24px;}
+#content .item_thema .float_box img {float:left;}
+#content .item_thema .item{ overflow: hidden;}
+
+#content .character{margin: 50px 0 50px; }
+#content .character .list{overflow: hidden;}
+#content .character .list img{float: right;}
+
+#content .character .list dl{ font-size: 20px;margin: 125px;}
+#content .character .list dl dt{font-size: 24px;font-weight:bold;font-family: 'Nanum Gothic'; margin: 20px 0 ;}
+#content .character .list dl dd{ font-family: 'Nanum Gothic';}
+#content .character .list dl dd strong{ color: #fff; display: inline-block;padding: 10px 15px;border-radius: 50px;margin-bottom: 12px; background: #3c70e0;}
+#content .character .list dl dd p{font-size: 20px;}
+
+#content .character img {}
+
+
+
+
+
+
+
+
+/* 
+#content .item_thema .hoho{display: inline-block; transition: margin 0.25s ease-in-out;}
+#content .item_thema .noho{}
+#content .item_thema .ho{display: none;} */
+
+
+
+/* #content .item_thema .float_box img .ho{background: url(../images/content4/evermap.png); width: 1164px; height: 917px;}
+#content .item_thema .float_box img .ho:hover{background: url(../images/content4/evermap_global.png);} */
+
+
+
+
+/* #content .item_thema img{max-width: 100%;}
+#content .item_thema img .jb_1{width: 1164px; margin: 0px auto;  position: relative;}
+#content .item_thema img .jb_3{position: absolute; top:0px; left:0px; display: none;} 
+#content .item_thema img .jb_1:hover .jb_3{display: block;} */
+
+
+/* #content .item_thema .float_box img::before{content: ''; background: url(../images/content4/evermap.png); width: 1164px; height: 917px;} */
+
+/* #content .item_thema dl{float:right; width: 40%;}
+#content .item_thema dl dt{font-size: 36px; font-family: 'Nanum Gothic'; font-weight:bold; color:black; padding: 50px 0 20px;}
+#content .item_thema dl dt strong{background:linear-gradient(to top, #ff0000 40%, transparent 40%)}
+#content .item_thema dl dd{font-size: 20px;line-height:2; text-align:justify;}
+#content .item_thema dl dd span{font-weight: bold;} */
+
+
+
+
+/* #content .item_thema {overflow: hidden; margin-top:100px;}
+#content .item_thema .item:first-child{margin-top:0;}
+#content .item_thema .item img{float:left;}
+#content .item_thema .item dl{float:right; width: 40%;}
+#content .item_thema .item dl dt{font-size: 24px; font-family: 'Nanum Gothic'; font-weight:bold; color:#f07404; padding: 82px 0 20px;}
+#content .item_thema .item dl dd{line-height:2;}
+
+#content .item:nth-child(even) img{float:right;}
+#content .item:nth-child(even) dl{float:left;} */
+
+

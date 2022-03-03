@@ -1,0 +1,34 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area{}
+#content .content_area p{font-size: 24px; font-family: 'Nanum Gothic';text-align:justify; margin-top: 30px; line-height: 1.5em;} 
+#content .content_area p span{color:#40cc47;font-weight: bold;  }
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #40cc47; border-top:2px solid #40cc47; width: 1200px;margin: 50px 0;}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area th.head{background: #fffdf4;padding: 10px 0; text-align: center; border-right: 1px solid #ccc;font-size: 20px;border-left: 1px solid #ccc;}
+#content .content_area th.head_1{background: #d1d1d1;border-left: 1px solid #ccc;}
+#content .content_area th.body{background: #e9e3e0;padding: 10px 0;border-left: 1px solid #ccc; width: 10%;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; border-right: 1px solid #ccc; border-left: 1px solid #ccc; width: 30%; padding: 20px 20px; line-height: 1.7em;}
+#content .content_area td span{color: red;}
+#content .content_area tr td.list{text-align: justify;padding: 15px 5px 15px 5px;}
+
+#content .content_area dl{margin-bottom: 50px;}
+#content .content_area dl dt{font-size: 24px;font-family: 'Nanum Gothic'; font-weight: bold; line-height: 2em; margin-top: 30px;}
+#content .content_area dl dd{font-size: 20px;font-family: 'Nanum Gothic'; line-height: 1.7em;}
+#content .content_area dl dd span{color: red;}
+#content .content_area dl dd::before{content: "·"; margin-right: 5px;} 
+
+
+#content .content_area .rules{float:right;width: 48%; height: 500px; margin-left: 10px; box-sizing: border-box; background: burlywood; padding: 50px; margin-bottom: 100px;border-radius: 25px;}
+#content .content_area .rules img{margin-left: 90px; margin-bottom: 30px;}
+#content .content_area .rules ul{}
+#content .content_area .rules ul li{font-size: 18px; font-family: 'Nanum Gothic'; line-height: 1.7em;}
+
+#content .content_area .charter{position: relative; width: 48%; height: 500px; margin-left: 10px; box-sizing: border-box; background: burlywood; padding: 50px;margin-bottom: 100px;border-radius: 25px;}
+#content .content_area .charter img{margin-left: 90px;margin-bottom: 30px;}
+#content .content_area .charter ul{}
+#content .content_area .charter ul li{font-size: 18px; font-family: 'Nanum Gothic';line-height: 1.7em;}
+
+
+

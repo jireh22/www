@@ -1,0 +1,18 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area .map{}
+#content .content_area .map h3{font-size: 30px;font-family: 'Nanum Gothic'; margin: 50px 0;}
+#content .content_area h3{font-size: 30px;font-family: 'Nanum Gothic'; margin-top: 130px;}
+#content .content_area ul{margin-top: 50px; font-family: 'Nanum Gothic'; padding-bottom: 100px;}
+#content .content_area ul li {margin-top:65px;}
+#content .content_area ul li .num{padding: 19px 0 0 21px; width: 50px; height: 50px; display:inline-block; border-radius: 50%; background: #f07404; color: #fff; font-size: 24px; 
+    margin-right: 10px; }
+#content .content_area ul li span{font-size: 24px;font-family: 'Nanum Gothic';font-weight:bold; }   
+#content .content_area ul li dl{}
+#content .content_area ul li dl dt{font-size: 20px;font-family: 'Nanum Gothic';font-weight:bold;line-height:1.5; margin-top: 50px; }
+#content .content_area ul li dl dt span{color:#f07404;}
+#content .content_area ul li dl dd{font-size: 20px;font-family: 'Nanum Gothic';line-height:2; border-bottom: 1px dotted #ccc; margin: 20px; padding: 20px;}
+#content .content_area ul li dl dd img{}
+#content .content_area ul li dl dd strong{margin: 50px;}
+

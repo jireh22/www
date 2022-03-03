@@ -1,0 +1,147 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요금안내-이용요금</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub3_content1.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual02.jpg" alt="">
+            <h3>요금안내</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li class="curent"><a href="./sub3_1.html">이용요금</a></li>
+                <li><a href="./sub3_2.html">할인정보</a></li>
+                <li><a href="./sub3_3.html">제휴카드</a></li>
+                <li><a href="./sub3_4.html">연간이용</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 요금안내 &gt; <strong>이용요금</strong></div>
+                 <h2>이용요금</h2>
+            </div>
+            <div class="content_area">
+                <img src="./images/content1/discount.jpg" alt="">
+                <h3>이용권</h3>
+               
+                
+    
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head"></th>
+                            <th class="head">A</th>
+                            <th class="head">B</th>
+                            <th class="head">C</th>
+                            <th class="head">비고</th>
+                        </tr>
+                    </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td><strong>대인/청소년</strong></td>
+                            <td>60,000 원</td>
+                            <td>56,000 원</td>
+                            <td>50,000 원</td>
+                            <td rowspan="2" class="list">-에버랜드 입장 및 놀이시설 이용
+                                (코인물/대여물/기획전 등 일부 시설 별도 요금)<br>
+                                -당일 호암미술관 무료 입장</td>
+                        </tr>
+                        <tr>
+                            <td><strong>소인/경로</strong></td> 
+                            <td>48,000 원</td>
+                            <td>44,000 원</td>
+                            <td>40,000 원</td>
+                        </tr>
+                       
+                    </tbody>
+
+                </table>
+
+               
+        
+        
+        
+         <div class="preferential">
+            <h3>우대정보</h3>
+            
+             <ul>
+                 <li>※타 제휴카드 및 프로모션 등과 중복 우대 적용 불가</li>
+                 <li>※신분증 / 서류 확인이 필요한 경우 현장매표소에서만 구입 가능합니다.</li>
+                
+             </ul>
+
+             <dl>
+                 <dt>연령에 따른 우대 (나이 확인이 가능한 신분증 또는 서류 제시)</dt>
+                 <dd> - 경로 : 만 65세 ~<br>
+                 - 청소년 : 만 13세 ~ 만 18세<br>
+                 - 소인 : 36개월 ~ 만 12세<br>
+                 - 36개월 미만 : 무료 이용(유료시설의 경우 이용권 별도 구입 필요)<br></dd> 
+
+                 <dd>※ 유아이용권: 5,000원(붕붕카, 로보트카, 자동차왕국 모두 이용 가능)<br>
+                ※ 대인요금은 청소년과 통합하며, 청소년 대상 프로모션은 '할인&이벤트 >이달의 할인' 참조</dd> 
+                
+                <dt>장애인 우대 (장애인등록증 제시)</dt>
+                <dd>- 장애의 정도가 심한 장애인 <br>
+                    본인 : 우대가 적용<br>
+                    동반인 : 우대가 적용 (최대1명까지)</dd>
+                  
+                <dd>- 장애의 정도가 심하지 않은 장애인<br>
+                    본인 : 우대가 적용</dd>
+                  
+                <dd> ※ 1일 이용권 우대가로 구입 가능</dd> 
+
+                <dt>국가유공자 우대 (증명서류 제시)</dt>
+                <dd>- 본인 : 1일 이용권 50% 우대가로 구입 가능<br>
+                    - 동반인 : 1일 이용권 50% 우대가로 구입 가능 (최대1명까지)</dd>
+                
+                <dt>다자녀 가정 우대 (건강보험증, 등본 등 다자녀 증명서류 제시)</dt>
+                <dd>- 1일 이용권 우대가로 구입 가능 우대가격<br>
+                    - 우대 대상 : 막내 자녀가 만 15세 이하인 3명 이상의 다자녀 가정의 부부와 직계자녀<br>
+                    - 해당 가정 내 일부 가족만 이용 시에도 혜택 적용</dd>    
+
+                <dt>임신부 우대 (산모수첩 혹은 임신확인서 제시)</dt>
+                <dd>- 1일 이용권(임신부 본인) 우대가로 구입 가능</dd>    
+    
+
+             </dl>
+
+            
+
+               
+         </div>
+
+        
+                
+        </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+
+</body>
+</html>

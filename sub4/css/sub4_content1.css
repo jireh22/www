@@ -1,0 +1,42 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+
+.intro{text-align:center;}
+.intro img{margin:0 0 20px;}
+.intro .point{text-align:center; font-size: 36px; margin: 80px; line-height:1.3; font-family: 'Nanum Gothic'; }
+.intro .point span{display:block; /*font-.attraction ul li .bigweight: bold;*/ }
+.intro .point strong{background: linear-gradient(to top, #e8fa83 40%, transparent 40%);}
+.intro p{margin:30px 0 0; line-height:2;text-align:justify; }
+
+
+
+#content .content_area .box{}
+#content .content_area ul{ overflow: hidden; margin:0 0 48px 42px;padding-bottom: 50px;}
+#content .content_area ul li {width:242px; height: 292px; margin: 22px; float:left; text-align: center;font-size:16px ; font-weight: bold;
+    line-height: 1.5;  border: 1px solid #ccc; transition: all .5s;}
+
+/* #content .content_area ul li:hover {transform: scale(1.1); box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);} */
+
+#content .content_area ul li > a{ display: block;font-family : 'Nanum Gothic'; padding:40px 33px 42px;  font-size: 20px;}
+#content .content_area ul li > a:hover{color: #fff; background: #21a500;}
+#content .content_area ul li > img{ width: 242px;height: 181px;}
+
+
+/* a{text-decoration: none;color: #333;}  */
+
+.attraction .box{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: fixed;
+    left: 0;top: 0;display: none;z-index: 100;} 
+
+.attraction ul li .big{ width: 1000px;border: 5px solid #333;background: #fff;position: absolute;
+    padding: 10px;left: 50%;margin-left: -512px;top:50%;margin-top: -415px;overflow: hidden;
+    display: none;z-index: 110;}
+.attraction ul li .big img{width: 800px;}
+.attraction p{text-align: center;padding: 10px;line-height: 1.7em;}
+.attraction p strong{font-size: 24px; color: rgb(22, 104, 15);background: linear-gradient(to top, #def8deec 40%, transparent 40%); }
+
+.attraction .big .closeBtn{display: block; text-align: center;background: #fff; padding: 20px;}
+.attraction .big .closeBtn:hover{background-color: #208806; color: #fff;}
+
+
+

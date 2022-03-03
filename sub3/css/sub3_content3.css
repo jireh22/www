@@ -1,0 +1,53 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area{}
+
+#content .content_area .affiliate_card .card_tab{width: 750px; overflow: hidden; box-shadow: 0 2px 10px 0 #ccc; margin: 100px 225px;}
+#content .content_area .affiliate_card .card_tab li{float: left; width: 250px; background: #fff;}
+#content .content_area .affiliate_card .card_tab li a{display: block; width: 246px; border: 2px solid #f7f7f7; padding: 15px 0; text-align: center; 
+    font-family: 'Nanum Gothic'; font-weight:700; transition: all .15s ease-in;}    
+#content .content_area .affiliate_card .card_tab li a:hover{background: #fff; border: 2px solid #f07404; color: #f07404;}
+
+#content .content_area .affiliate_card h4{text-align: center; font-family: 'Nanum Gothic'; font-weight: bold; font-size: 36px; margin: 100px 0;}
+#content .content_area .affiliate_card .samsung{overflow: hidden; width: 1200px; padding: 50px ;}
+#content .content_area .affiliate_card .samsung li{width: 205px; float: left; margin: 10px 90px 50px 0;}
+#content .content_area .affiliate_card .samsung li a{display: block; width: 205px; height: 170px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .samsung li a:hover img{transform: scale(1.1);}
+#content .content_area .affiliate_card .samsung li:nth-child(4n){margin: 10px 0 50px 0;}
+#content .content_area .affiliate_card .samsung li img{width: 253px; height: 165px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .samsung li span {display: block; font-size: 16px; text-align: justify; margin: 10px 0; transition: all .23s ease-in;}
+#content .content_area .affiliate_card .samsung li span:hover{color: #f07404;}
+
+
+#content .content_area .affiliate_card h4{text-align: center; font-family: 'Nanum Gothic'; font-weight:bold; font-size: 36px; margin: 100px 0; }
+#content .content_area .affiliate_card .hyundai{overflow: hidden; width: 1200px; padding: 50px ;}
+#content .content_area .affiliate_card .hyundai li{width: 205px; float: left; margin: 10px 90px 50px 0;}
+#content .content_area .affiliate_card .hyundai li a{display: block; width: 205px; height: 170px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .hyundai li a:hover img{transform: scale(1.1);}
+#content .content_area .affiliate_card .hyundai li:nth-child(4n){margin: 10px 0 50px 0;}
+#content .content_area .affiliate_card .hyundai li img{width: 253px; height: 165px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .hyundai li span {display: block; font-size: 16px; text-align: justify; margin: 10px 0; transition: all .23s ease-in;}
+#content .content_area .affiliate_card .hyundai li span:hover{color: #f07404;}
+
+#content .content_area .affiliate_card h4{text-align: center; font-family: 'Nanum Gothic'; font-weight:bold;  font-size: 36px; margin-bottom: 100px;}
+#content .content_area .affiliate_card .hana{overflow: hidden; width: 1200px; padding: 50px ;}
+#content .content_area .affiliate_card .hana li{width: 205px; float: left; margin: 10px 90px 50px 0;}
+#content .content_area .affiliate_card .hana li a{display: block; width: 205px; height: 170px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .hana li a:hover img{transform: scale(1.1);}
+#content .content_area .affiliate_card .hana li:nth-child(4n){margin: 10px 0 50px 0;}
+#content .content_area .affiliate_card .hana li img{width: 253px; height: 165px; transition: all .15s ease-in;}
+#content .content_area .affiliate_card .hana li span {display: block; font-size: 16px; text-align: justify; margin: 10px 0; transition: all .23s ease-in;}
+#content .content_area .affiliate_card .hana li span:hover{color: #f07404;}
+
+
+#content .content_area .modal_box{position: fixed; left: 0; top: 0; z-index: 1000; width: 100%; height: 100%; background-color: #3a3e50; opacity: 0.5; display: none;}
+#content .content_area .popup_card{position: fixed; top: 50%; left: 50%; margin: -300px 0 0 -450px; width: 900px; height: 600px; background: #fff; box-shadow: 1px 3px 7px 0px #666; z-index: 1001; display: none;}
+#content .content_area .popup_card{overflow: hidden;}
+#content .content_area .popup_card img{display: block; float: left; margin: 35px 50px 35px 150px; width: 200px; height: 130px;}
+#content .content_area .popup_card .popup_title2{display: block; float: left; font-family: 'Noto Sans KR', sans-serif; font-weight:700; font-size: 24px; margin: 35px 50px ; text-align: center; line-height: 36px; margin-top: 60px; width: 390px;}
+#content .content_area .popup_card .popup_title2 span{color: #fc7900;}
+#content .content_area .popup_card .pay{border-collapse: collapse; border-bottom: 2px solid #fc7900; border-top:2px solid #fc7900; width: 800px; margin: 30px 50px; font-size: 17px; line-height: 22px;}
+#content .content_area .popup_card .pay td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: justify;}
+#content .content_area .popup_card .col{color: #fc7900; font-weight: 700; width: 150px;}
+#content .content_area .popup_card .close_btn2{position: absolute; top: 25px; left: 840px; display: block; text-indent: -999px; overflow: hidden; width: 32px; height: 32px; padding: 9px 9px; background: url(../images/content3/cancel.png) no-repeat;}

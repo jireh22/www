@@ -1,0 +1,31 @@
+#content .title_area p{font-size: 26px; margin-bottom: 60px; font-family: 'Nanum Gothic', sans-serif; text-align: center;}
+#content .title_area span{color: #00abcd;}
+.content_area form{width: 1200px;font-family: 'Nanum Gothic', sans-serif;}
+
+#list_top_title>ul{overflow: hidden; border-bottom: 1px solid #999; border-top:2px solid #00abcd; background: #f9f9f9;}
+#list_top_title>ul>li{float: left; font-size: 16px; font-weight: 700; text-align: center; font-family: 'Nanum Gothic', sans-serif;}
+#list_content{width: 1200px; font-family: 'Nanum Gothic', sans-serif;}
+.list_item{overflow: hidden;}
+.list_item li{float: left; text-align: center; border-bottom: 1px solid #ccc;}
+.list_item1,#list_title1{width: 100px; padding: 20px 0; border-bottom: 1px solid #ccc;}
+.list_item2,#list_title2{width: 600px;padding: 20px 0; border-bottom: 1px solid #ccc;}
+.list_item3,#list_title3{width: 200px;padding: 20px 0; border-bottom: 1px solid #ccc;}
+.list_item4,#list_title4{width: 200px;padding: 20px 0; border-bottom: 1px solid #ccc;}
+.list_item5,#list_title5{width: 100px;padding: 20px 0; border-bottom: 1px solid #ccc;} 
+#list_search{overflow: hidden; padding:50px;margin:10px auto;}
+#list_search3{overflow: hidden; width: 600px; margin: 0 auto;}
+#list_search3 li{float: left;}
+.content_area form{background: #f7f7f7; margin-bottom: 60px;}
+.total{overflow: hidden; margin-bottom: 20px;}
+.total #list_search1{float: left ; font-family: 'Nanum Gothic', sans-serif;}
+.total .scale_list{float: right;}
+.scale_list select{padding: 5px 10px; outline: none; background: #f7f7f7; border: 0;}
+#find select{padding: 10px 10px; outline: none; margin-right: 20px; border: none; border-bottom: 2px solid #999;  background: none;}
+#find select option{padding: 10px; }
+#list_search4 input{width: 400px; outline: none; background: none; border: none; border-bottom: 2px solid #999; margin-right: 20px; padding: 10px;}
+#list_search5 input{border: none; cursor: pointer; background: #00abcd; color: #fff; padding: 10px 20px;}
+#page_button{margin-top: 50px; text-align: center; }
+#page_num{margin-bottom: 50px;}
+#button{overflow: hidden; float: right;}
+#button a:nth-of-type(1){float: left;width: 50px; padding: 10px 20px; margin-bottom: 150px; background: #ccc; color: #fff; font-size: 14px;}
+#button a:nth-of-type(2){float: right ; width: 50px;padding: 10px 20px; margin-bottom: 150px; background: #00abcd; color: #fff; font-size: 14px;}

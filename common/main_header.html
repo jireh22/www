@@ -1,0 +1,101 @@
+<div id="skipNav">
+    <a href="#content">본문 바로가기</a>
+    <a href="#gnb">글로벌 네비게이션 바로가기</a>
+   </div>
+<div class="wrap">
+   
+    <header id="headerArea" style="background-color: white; height: 186px; overflow: hidden;">
+        <div class="header_inner">
+            <div class="top_menu">
+                <ul>
+                <?
+                    if(!$userid)  //세션변수가 만들어지지 않았다면..
+                    {
+                ?>
+
+                    <li><a href="./login/login_form.php">로그인</a></li>
+                    <li class="last"><a href="./member/member_check.html">회원가입</a></li>
+                <?
+                    }
+                    else  //로그인이 되었다면
+                    {
+                ?>    
+
+                    <li><a href="./login/logout.php">로그아웃</a></li>
+                    <li class="last"><a href="./member/member_form_modify.php">정보수정</a></li>
+                <?
+                    }
+                ?> 
+                
+                </ul>
+
+
+                
+            </div>
+            <h1><a href="index.html">에버랜드로고</a></h1>
+            
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+               
+                <ul class="dropdownmenu">
+                    <li class="m1 menu">
+                      <h3><a class="depth1" href="./sub1/sub1_1.html">에버랜드</a></h3>
+                      <ul>
+                          <li><a href="./sub1/sub1_1.html">에버랜드 소개</a></li>
+                          <li><a href="./sub1/sub1_2.html">연 혁</a></li>
+                          <li><a href="./sub1/sub1_3.html">경영방침</a></li>
+                          <li><a href="./sub1/sub1_4.html">에버랜드 스토리</a></li>
+                          <li><a href="./sub1/sub1_5.html">Editor's pick</a></li>
+                      </ul>
+                  </li>
+                  <li class="m2 menu">
+                      <h3><a class="depth1" href="./sub2/sub2_1.html">이용정보</a></h3>
+                      <ul>
+                          <li><a href="./sub2/sub2_1.html">운영/운휴</a></li>
+                          <li><a href="./sub2/sub2_2.html">이용방법</a></li>
+                          <li><a href="./sub2/sub2_3.html">교통정보</a></li>
+                          <li><a href="./sub2/sub2_4.html">가이드맵</a></li>
+                      </ul>
+                  </li>
+                  <li class="m3 menu">
+                      <h3><a class="depth1" href="./sub3/sub3_1.html">요금안내</a></h3>
+                      <ul>
+                          <li><a href="./sub3/sub3_1.html">이용요금</a></li>
+                          <li><a href="./sub3/sub3_2.html">할인정보</a></li>
+                          <li><a href="./sub3/sub3_3.html">제휴카드</a></li>
+                          <li><a href="./sub3/sub3_4.html">연간이용</a></li>
+                      </ul>
+                  </li>
+                  <li class="m4 menu">
+                      <h3><a class="depth1" href="./sub4/sub4_1.html">즐길거리</a></h3>
+                      <ul>
+                          <li><a href="./sub4/sub4_1.html">어트랙션</a></li>
+                          <li><a href="./sub4/sub4_2.html">엔터테인먼트</a></li>
+                          <li><a href="./sub4/sub4_3.html">주토피아(동물원)</a></li>
+                          <li><a href="./sub4_4.html">플랜토피아(정원)</a></li>
+                          <li><a href="./sub4/sub4_5.html">레스토랑</a></li>
+                          <li><a href="./sub4/sub4_6.html">선물샵</a></li>
+                      </ul>
+                  </li>
+                  <li class="m5 menu">
+                      <h3><a class="depth1" href="./sub5/sub5_1.html">멤버십</a></h3>
+                      <ul>
+                          <li><a href="./sub5/sub5_1.html">동물사랑단</a></li>
+                          <li><a href="./sub5/sub5_2.html">식물사랑단</a></li>
+                          
+                      </ul>
+                  </li>
+                  <li class="m6 menu">
+                      <h3><a class="depth1" href="./concert/list.php">상담센터</a></h3>
+                      <ul>
+                          <li><a href="./concert/list.php">뉴스공지</a></li>
+                          <li><a href="./sub6/sub6_2.html">FAQ</a></li>
+                          <li><a href="./sub6/sub6_3.html">방문전 이용문의</a></li>
+                          <li><a href="./sub6/sub6_4.html">유실물 확인</a></li>
+                      </ul>
+                     </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>

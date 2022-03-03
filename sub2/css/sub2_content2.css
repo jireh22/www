@@ -1,0 +1,31 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+
+.intro{text-align:center;border-radius:25px ; padding: 50px; position: relative; overflow: hidden;background: #fef7f1; height: 415px;}
+
+.intro .point{text-align:center; font-size: 36px; margin: 50px 0 0; line-height:1.3; font-family: 'Nanum Gothic'; }
+.intro .point strong{color:#f07404;}
+.intro p span{ background: linear-gradient(to top, #ffc400 40%, transparent 40%); font-weight: bold;}
+.intro p{margin-top: 50px; line-height: 1.5em;text-align:justify; font-size: 20px; font-family: 'Nanum Gothic'; }
+.intro img{margin-left: 887px; margin-top: -182px;}
+
+
+
+
+.item{}
+
+
+#content .content_area ul{ margin: 200px 0; font-family: 'Nanum Gothic';}
+
+#content .content_area ul li { margin-top:50px; border: 1px solid #ccc; padding: 50px ; }
+#content .content_area ul li p{font-size: 36px; font-family: 'Nanum Gothic'; font-weight:bold;}
+#content .content_area ul li dl{ }
+#content .content_area ul li dl dt{font-size: 24px; font-family: 'Nanum Gothic'; font-weight:bold; color:#f07404; padding: 82px 0 20px;}
+#content .content_area ul li dl dt .num{padding: 23px 0 0 23px; width: 50px; height: 50px; display:inline-block; border-radius: 50%; background: #f07404; color: #fff; font-size: 24px; 
+    margin-right: 10px;}
+#content .content_area ul li dl dd{font-size: 24px; font-family: 'Nanum Gothic'; line-height:2;}
+
+
+
+

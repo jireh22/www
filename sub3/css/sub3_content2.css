@@ -1,0 +1,37 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .discont{} 
+#content .discont>p {margin-bottom: 50px; text-align: center;  font-weight: 700; 
+    color: #892fd5;;font-family: 'Roboto'; font-weight:400 ; font-size: 36px;}   
+#content .discont ul{overflow: hidden; margin:0 0 50px 95px; padding: 20px ;}
+#content .discont li{width:249px;float:left ; border: 1px solid #ccc; text-align: center; height: 300px;}
+#content .discont li:hover{border: 1px solid #892fd5; transition: all .5s; box-shadow: 2px 2px 10px 1px rgba(0,0,0,.3);}
+#content .discont li a{display: block;font-family: 'Nanum Gothic'; font-weight: 400;}
+#content .discont li img{margin: 15px 0 30px;}
+#content .discont li span{display: block; line-height: 1.5em;}
+
+/* #content .discont .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+  border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 130px; transition: all .5s}
+#content .discont .more:hover{background:#e56605 ;} */
+
+
+.discont .box{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: fixed;
+  left: 0;top: 0;display: none;z-index: 100;} 
+
+.discont ul li .big{ width: 1000px;border: 5px solid #333;background: #fff;position: absolute;
+  padding: 10px;left: 50%;margin-left: -512px;top:50%;margin-top: -415px;overflow: hidden;
+  display: none;z-index: 110;}
+.discont ul li .big img{width: 800px;}
+.discont .big p{text-align: center;padding: 10px;line-height: 2.5em; font-size: 20px; font-weight: bold;font-family: 'Nanum Gothic';}
+.discont .big p strong{font-size: 24px; color: #892fd5;background: linear-gradient(to top, #f8def2ec 40%, transparent 40%); }
+
+.discont .big .closeBtn{display: block; text-align: center;background: #fff; padding: 20px;}
+.discont .big .closeBtn:hover{background-color: #892fd5; color: #fff;}
+
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #892fd5; border-top:2px solid #892fd5; width: 900px;margin: 50px; margin-bottom: 25px;
+  font-size: 17px;font-family: 'Nanum Gothic';}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;border-left: 1px solid #ccc; border-right: 1px solid #ccc; background: #efdcff;}
+#content .content_area th.head{background: #f7f7f7;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding: 15px;}
+#content .content_area td.list{text-align: justify;line-height: 1.5em;}

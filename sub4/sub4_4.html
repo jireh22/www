@@ -1,0 +1,80 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>즐길거리-플랜토피아</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content4.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>즐길거리</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub4_1.html">어트랙션</a></li>
+                <li><a href="./sub4_2.html">엔터테인먼트</a></li>
+                <li><a href="./sub4_3.html">주토피아</a></li>
+                <li class="curent"><a href="./sub4_4.html">플랜토피아</a></li>
+                <li><a href="./sub4_5.html">레스토랑</a></li>
+                <li><a href="./sub4_6.html">선물샵</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 즐길거리 &gt; <strong>플랜토피아</strong></div>
+                 <h2>플랜토피아</h2>
+            </div>
+            <div class="content_area">
+                
+   
+                <div id="Plantopia">
+                      <ul>
+                          <li><a class="current" href="sub4_4_data.html#skyroad">하늘매화길</a></li>
+                          <li><a href="sub4_4_data.html#fourSeasons">포시즌스가든</a></li>
+                          <li><a href="sub4_4_data.html#romantic">로맨틱 타워트리</a></li>
+                          <li><a href="sub4_4_data.html#Aesop">이솝 우산길</a></li>
+                          <li><a href="sub4_4_data.html#rose">장미원</a></li>
+                          <li><a href="sub4_4_data.html#musicgarden">뮤직가든</a></li>
+                      </ul>
+                </div>
+               
+                  
+              
+                <div id="details">
+                        <!--이 위치에 데이터가 로드된다 -->
+                </div>
+
+                
+        
+                
+            </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+    <script src="js/sub4_4.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .giftshop{} 
+#content .giftshop>p {margin-bottom: 50px; text-align: center;  font-weight: 700; 
+    color: #892fd5;font-family: 'Roboto'; font-weight:400 ; font-size: 30px;}   
+#content .giftshop ul{overflow: hidden; margin:0 0 50px 40px; padding: 20px ;}
+#content .giftshop li{width:249px;float:left ; border: 1px solid #ccc; text-align: center; height: 300px; margin: 10px;}
+#content .giftshop li:hover{border: 1px solid #892fd5; transition: all .5s; box-shadow: 2px 2px 10px 1px rgba(0,0,0,.3);}
+#content .giftshop li a{display: block;font-family: 'Nanum Gothic'; font-weight: 400;}
+#content .giftshop li>img{width: 249px; height: 180px; }
+#content .giftshop li span{display: block; line-height: 1.5em; margin-top: 50px;}
+
+/* #content .discont .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+  border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 130px; transition: all .5s}
+#content .discont .more:hover{background:#e56605 ;} */
+
+.giftshop .box{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: fixed;
+  left: 0;top: 0;display: none;z-index: 100;} 
+
+.giftshop ul li .big{ width: 1000px;border: 5px solid #333;background: #fff;position: absolute;
+  padding: 10px;left: 50%;margin-left: -512px;top:50%;margin-top: -415px;overflow: hidden;
+  display: none;z-index: 110;}
+.giftshop ul li .big >img{width: 800px;}
+.giftshop .big p{text-align: center;padding: 10px;line-height: 2.5em; font-size: 24px; font-family: 'Nanum Gothic';color: #892fd5;}
+.giftshop .big p strong{font-size: 24px; color: #892fd5;background: linear-gradient(to top, #f8def2ec 40%, transparent 40%); }
+
+.giftshop .big .closeBtn{display: block; text-align: center;background: #fff; padding: 20px;}
+.giftshop .big .closeBtn:hover{background-color: #892fd5; color: #fff;}
+

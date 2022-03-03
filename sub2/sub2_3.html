@@ -1,0 +1,115 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용정보-교통정보</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub3common.css">
+    <link rel="stylesheet" href="./css/sub2_content3.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=444f743cdede07997f76f403ae0a7585"></script>
+    <script src="./js/map.js"></script>
+
+</head>
+<body>
+    
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>이용정보</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">운영/운휴</a></li>
+                <li><a href="./sub2_2.html">이용방법</a></li>
+                <li class="curent"><a href="./sub2_3.html">교통정보</a></li>
+                <li><a href="./sub2_4.html">가이드맵</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 이용정보 &gt; <strong>교통정보</strong></div>
+                 <h2>교통정보</h2>
+            </div>
+            <div class="content_area">
+        
+                <div class="map">
+                    <h3>찾아오시는길</h3>
+                    <div id="map" style="width:1200px;height:550px;"></div>
+
+                </div>
+
+                <h3>대중교통</h3>
+                <ul>
+                    <li><span class="num">01</span><span>지하철 이용</span>
+                        <dl>
+                            <dt>분당선 기흥역까지 오셔서 에버라인(경전철)으로 환승하세요!</dt>
+                            <dd>- 에버라인 종점에 내려서 셔틀버스(무료)로 에버랜드, 캐리비안 베이까지 이동<br>
+                            - 에버라인 운행시간 05:30~23:30</dd>     
+                              
+                                
+                        </dl>
+                    </li>
+                    <li><span class="num">02</span><span>버스 이용</span>
+                        <dl>
+                            <dt><span>▣서울출발</span></dt>
+
+                            <dt>일반버스</dt> 
+                            <dd><img src="./images/content3/red_bus.gif" alt="광역버스"><strong>5002번</strong>
+                                신논현역 – 강남역 - 양재역 경유</dd>
+                            <dd><img src="./images/content3/red_bus.gif" alt="광역버스"><strong>5700번 </strong>
+                                강변역 - 잠실역 – 송파역 - 수서역 경유</dd>
+                            <dd><img src="./images/content3/red_bus.gif" alt="광역버스"><strong>1500-2번</strong>
+                                사당역 - 남부터미널 – 판교역 - 분당(서현역) 경유</dd>
+                            <dd><img src="./images/content3/red_bus.gif" alt="광역버스"><strong>1113번</strong>
+                                강변역 - 강동역 – 광주시청 - 외대입구 경유</dd>
+
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><span>▣인천 및 경기도 출발</span></dt>
+                            
+                            <dt>직행버스</dt>
+                            <dd><img src="./images/content3/nonstop_bus.gif" alt="직행버스"><strong>8862번</strong>
+                                인천터미널 - 수원영통</dd>
+                            <dd><img src="./images/content3/nonstop_bus.gif" alt="직행버스"><strong>8839번</strong>
+                                인천터미널 - 범계역</dd>
+
+                            <dt>일반버스</dt>
+                            <dd><img src="./images/content3/green_bus.gif" alt="일반시내버스"><strong>66번</strong>
+                                수원역 – 수원 – 용인 경유</dd>
+                            <dd><img src="./images/content3/green_bus.gif" alt="일반시내버스"><strong>66-4번</strong>
+                                수원역 – 수원 – 동백 – 용인 경유</dd>
+                            <dd><img src="./images/content3/green_bus.gif" alt="일반시내버스"><strong>670번</strong>
+                                광교 – 수지 – 죽전 – 동백 경유</dd>
+
+                        </dl>
+                    </li>
+                </ul>
+
+
+        </article>
+        
+        
+        
+    <? include "../common/sub_footer.html"?>   
+
+</body>
+</html>

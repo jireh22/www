@@ -1,0 +1,74 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용정보-가이드맵</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub2_content4.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>이용정보</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub2_1.html">운영/운휴</a></li>
+                <li><a href="./sub2_2.html">이용방법</a></li>
+                <li><a href="./sub2_3.html">교통정보</a></li>
+                <li class="curent"><a href="./sub2_4.html">가이드맵</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 이용정보 &gt; <strong>가이드맵</strong></div>
+                 <h2>가이드맵</h2>
+            </div>
+            <div class="content_area">
+        
+        
+                
+                <div class="intro">
+                    
+                    <h4>everland guide</h4>
+                    <p class="point">
+                        에버랜드에 대하여 궁금한 것이 있으신가요?
+                        <strong>에버랜드 가이드 맵을 다운로드</strong>하여 자세한 정보를 만나보세요!
+                    </p>
+                    <img src="./images/content4/evermap.png" alt="에버랜드">
+                    <a class="more" href="#">PDF 다운로드</a>
+                </div>
+        
+        
+        
+               
+            </div>
+        </article>
+        
+        
+        
+        
+    <? include "../common/sub_footer.html"?> 
+    
+</body>
+</html>

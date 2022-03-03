@@ -1,0 +1,131 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+
+.history_intro{text-align:center;}
+.history_intro .point{margin-bottom: 60px;}
+.history_intro .point span{color:#f07404;}
+.history_intro p{margin:20px 0 0; font-family: 'Nanum Gothic';font-size: 30px; font-weight:bold; }
+
+#content .content_area ul{overflow: hidden; border: 1px solid #ccc; width: 1100px; margin: 0 0 60px 50px; }
+#content .content_area ul li{float: left; width: 25%;}
+#content .content_area ul li a{display: block; text-align: center;font-size: 30px;padding: 25px 0; 
+   font-family: 'Nanum Gothic'; border-right: 1px solid #ccc ; transition: all .5s;}
+#content .content_area ul li:hover a{background: #fff; color: coral; border: 1px solid coral;}    
+#content .content_area ul li .tab1_curent{background: coral; color: #fff;border: 1px solid coral;}
+#content .content_area ul li:hover .tab1_curent{ background: coral; color: #fff;}
+
+#content .content_area .history_sub_title{width: 1200px; margin: 0 0 50px -40px; padding: 46px;}
+#content .content_area .history_sub_title h4{font-size: 48px; text-align: center; 
+    font-family: 'Nanum Gothic';}
+
+#content .content_area .history_timeline_line1{width: 1100px; height: 1800px; margin-left: 50px; 
+    position: relative;}
+#content .content_area .history_timeline_line1>div{width: 100%; position: absolute; left: 50%; margin-left: -550px;}
+#content .content_area .history_timeline_line1::after{height: 3250px; content: ''; width: 1px; position: absolute;
+left: 50%; top:10px; background: #ccc;} 
+
+#content .content_area .history_timeline_line1 dl:nth-of-type(odd){ margin-left: 580px;}
+#content .content_area .history_timeline_line1 dl{margin-bottom: 60px;}
+#content .content_area .history_timeline_line1 dt{font-family: 'Nanum Gothic'; font-size: 24px; font-weight: bold; margin-bottom: 25px;
+position: relative;z-index: 1; color: coral;}
+#content .content_area .history_timeline_line1 dl:nth-of-type(odd) dt::before{left: -34px;}
+
+#content .content_area .history_timeline_line1 dl:nth-of-type(even){text-align: right; width: 520px;}
+#content .content_area .history_timeline_line1 dl:nth-of-type(even) dt::before{right: -35px;}
+#content .content_area .history_timeline_line1 dl:nth-of-type(even) strong{float: right;}
+
+#content .content_area .history_timeline_line1 dt::before{content: ''; width: 10px; height: 10px; background: coral;
+position: absolute; top: 10px; z-index: -1; border-radius:50% ;}
+#content .content_area .history_timeline_line1 dd{font-family: 'Nanum Gothic';font-size: 18px; color: #999; margin-bottom: 20px; overflow: hidden; line-height: 1.2em;}
+#content .content_area .history_timeline_line1 strong{margin-top: -2px; font-family: 'Nanum Gothic'; float: left;  
+display: inline-block; width: 50px; height: 10px; color: #333;}
+#content .content_area .history_timeline_line1 span{display: block; margin: 10px 50px ;}
+
+
+
+#content .content_area .history_content2{ padding-top: 1700px;}
+#content .content_area .history_sub_title2{width: 1200px;  margin: 0 0 50px -40px; padding: 46px;}
+#content .content_area .history_sub_title2 h4{font-size: 48px; text-align: center; 
+    font-family: 'Nanum Gothic';}
+#content .content_area .history_timeline_line2{width: 1100px; height: 1800px; margin-left: 50px; 
+    position: relative;}
+#content .content_area .history_timeline_line2>div{width: 100%; position: absolute; left: 50%; margin-left: -550px;}
+#content .content_area .history_timeline_line2::after{height: 2036px; content: ''; width: 1px; position: absolute;
+left: 50%; top:10px; background: #ccc;} 
+
+#content .content_area .history_timeline_line2 dl:nth-of-type(odd){ margin-left: 580px;}
+#content .content_area .history_timeline_line2 dl{margin-bottom: 60px;}
+#content .content_area .history_timeline_line2 dt{font-family: 'Nanum Gothic'; font-size: 24px; font-weight: bold; margin-bottom: 25px;
+position: relative;z-index: 1; color: coral;}
+#content .content_area .history_timeline_line2 dl:nth-of-type(odd) dt::before{left: -34px;}
+
+#content .content_area .history_timeline_line2 dl:nth-of-type(even){text-align: right; width: 520px;}
+#content .content_area .history_timeline_line2 dl:nth-of-type(even) dt::before{right: -35px;}
+#content .content_area .history_timeline_line2 dl:nth-of-type(even) strong{float: right;}
+
+#content .content_area .history_timeline_line2 dt::before{content: ''; width: 10px; height: 10px; background: coral;
+position: absolute; top: 10px; z-index: -1; border-radius:50% ;}
+#content .content_area .history_timeline_line2 dd{font-family: 'Nanum Gothic'; font-size: 18px; color: #999; margin-bottom: 20px; overflow: hidden; line-height: 1.2em;}
+#content .content_area .history_timeline_line2 strong{margin-top: -2px; font-family: 'Nanum Gothic'; float: left;  
+display: inline-block; width: 50px; height: 10px; color: #333;}
+#content .content_area .history_timeline_line2 span{display: block; margin: 10px 50px ;}
+
+
+
+
+#content .content_area .history_content3{ padding-top: 600px ;margin-bottom:-600px ;}
+#content .content_area .history_sub_title3{width: 1200px;  margin: 0 0 50px -40px; padding: 46px;}
+#content .content_area .history_sub_title3 h4{font-size: 48px; text-align: center; 
+    font-family: 'Nanum Gothic';}
+#content .content_area .history_timeline_line3{width: 1100px; height: 1800px; margin-left: 50px; 
+    position: relative;}
+#content .content_area .history_timeline_line3>div{width: 100%; position: absolute; left: 50%; margin-left: -550px;}
+#content .content_area .history_timeline_line3::after{height: 784px; content: ''; width: 1px; position: absolute;
+left: 50%; top:10px; background: #ccc;} 
+
+#content .content_area .history_timeline_line3 dl:nth-of-type(odd){ margin-left: 580px;}
+#content .content_area .history_timeline_line3 dl{margin-bottom: 60px;}
+#content .content_area .history_timeline_line3 dt{font-family: 'Nanum Gothic'; font-size: 24px; font-weight: bold; margin-bottom: 25px;
+position: relative;z-index: 1; color: coral;}
+#content .content_area .history_timeline_line3 dl:nth-of-type(odd) dt::before{left: -34px;}
+
+#content .content_area .history_timeline_line3 dl:nth-of-type(even){text-align: right; width: 520px;}
+#content .content_area .history_timeline_line3 dl:nth-of-type(even) dt::before{right: -35px;}
+#content .content_area .history_timeline_line3 dl:nth-of-type(even) strong{float: right;}
+
+#content .content_area .history_timeline_line3 dt::before{content: ''; width: 10px; height: 10px; background: coral;
+position: absolute; top: 10px; z-index: -1; border-radius:50% ;}
+#content .content_area .history_timeline_line3 dd{font-family: 'Nanum Gothic'; font-size: 18px; color: #999; margin-bottom: 20px; overflow: hidden; line-height: 1.2em;}
+#content .content_area .history_timeline_line3 strong{margin-top: -2px; font-family: 'Nanum Gothic'; float: left;  
+display: inline-block; width: 50px; height: 10px; color: #333;}
+#content .content_area .history_timeline_line3 span{display: block; margin: 10px 50px ;}
+
+
+
+
+#content .content_area .history_content4{margin-bottom: -1150px; }
+#content .content_area .history_sub_title4{width: 1200px;  margin: 0 0 50px -40px; padding: 46px;}
+#content .content_area .history_sub_title4 h4{font-size: 48px; text-align: center; 
+    font-family: 'Nanum Gothic';}
+#content .content_area .history_timeline_line4{width: 1100px; height: 1800px; margin-left: 50px; 
+    position: relative;}
+#content .content_area .history_timeline_line4>div{width: 100%; position: absolute; left: 50%; margin-left: -550px;}
+#content .content_area .history_timeline_line4::after{height: 438px; content: ''; width: 1px; position: absolute;
+left: 50%; top:10px; background: #ccc;} 
+
+#content .content_area .history_timeline_line4 dl:nth-of-type(odd){ margin-left: 580px;}
+#content .content_area .history_timeline_line4 dl{margin-bottom: 60px;}
+#content .content_area .history_timeline_line4 dt{font-family: 'Nanum Gothic'; font-size: 24px; font-weight: bold; margin-bottom: 25px;
+position: relative;z-index: 1; color: coral;}
+#content .content_area .history_timeline_line4 dl:nth-of-type(odd) dt::before{left: -34px;}
+
+#content .content_area .history_timeline_line4 dl:nth-of-type(even){text-align: right; width: 520px;}
+#content .content_area .history_timeline_line4 dl:nth-of-type(even) dt::before{right: -35px;}
+#content .content_area .history_timeline_line4 dl:nth-of-type(even) strong{float: right;}
+
+#content .content_area .history_timeline_line4 dt::before{content: ''; width: 10px; height: 10px; background: coral;
+position: absolute; top: 10px; z-index: -1; border-radius:50% ;}
+#content .content_area .history_timeline_line4 dd{font-family: 'Nanum Gothic'; font-size: 18px; color: #999; margin-bottom: 20px; overflow: hidden; line-height: 1.2em;}
+#content .content_area .history_timeline_line4 strong{margin-top: -2px; font-family: 'Nanum Gothic'; float: left;  
+display: inline-block; width: 50px; height: 10px; color: #333;}

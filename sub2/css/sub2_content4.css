@@ -1,0 +1,16 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+
+.intro{text-align:center;}
+.intro h4{font-size: 40px; text-transform:uppercase}
+.intro .point{text-align:center; font-size: 30px; margin: 50px 0 0; line-height:1.5; font-family: 'Nanum Gothic'; }
+.intro .point strong{color:#f07404;display:block;}
+.intro p{}
+.intro img{ padding: 80px 0 80px;}
+.intro a{font-family: 'Nanum Gothic'; font-weight:bold; font-size: 16px; text-align: center; }
+.intro .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#e56605 ;
+    border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 220px; transition: all .5s}
+.intro .more:hover{background:#418dff ;}   
+
+ 

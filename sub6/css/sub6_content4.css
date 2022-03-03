@@ -1,0 +1,44 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area{text-align:center;}
+#content .content_area p{font-size: 36px; font-weight: bold;font-family: 'Nanum Gothic';}
+#content .content_area p span{display: block; color: coral; margin: 10px;}
+#content .content_area img{margin: 80px; width: 600px;}
+
+#content .content_area .lost{background:#ffefbf; border-radius: 30px; margin-bottom: 100px; padding: 50px;}
+#content .content_area .lost p{font-size: 24px; padding: 50px; line-height: 1.5em;font-family: 'Nanum Gothic'; }
+#content .content_area .lost p strong{color:coral}
+#content .content_area .lost img{width: 700px; margin: 50px; }
+#content .content_area .lost dl{box-sizing: border-box; background: rgb(255, 175, 100); padding: 30px; margin:0 100px;
+border-radius: 15px; box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);}
+#content .content_area .lost dl dt{font-family: 'Nanum Gothic';font-size: 20px;font-weight: bold; line-height: 1.5em;}
+#content .content_area .lost dl dd{font-family: 'Nanum Gothic';font-size: 18px;line-height: 2em;margin: 20px; text-align: justify;}
+#content .content_area .lost dl dd::after{content: '◈'; float: left; margin-right: 15px;}
+
+
+#content .content_area .pc{box-sizing: border-box; background: coral; margin: 50px; border-radius: 15px; box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);}
+#content .content_area .pc p span{font-size: 60px; color: #fff; box-sizing: border-box; background: rgb(197, 72, 14); border-radius: 80px; width: 150px; height: 150px; 
+    text-align: center; padding: 55px 0; display: block; margin:0 380px; position: relative; }
+#content .content_area .pc p {font-size: 24px; }
+#content .content_area .pc li{position:relative;}
+#content .content_area .pc ul li:first-child::after{content:''; display:block; width: 64px; height: 64px; margin:0 auto; transform:rotate(90deg); background:url(../images/content4/rightarrow.png) 50% 50% no-repeat;}
+
+
+
+#content .content_area .mobile{box-sizing: border-box; background: coral; margin: 50px; border-radius: 15px; overflow: hidden;  box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);}
+#content .content_area .mobile p span{font-size: 60px; color: #fff;box-sizing: border-box; background: rgb(197, 72, 14); border-radius: 80px; width: 150px; height: 150px; 
+    text-align: center; padding: 50px 0; display: block; margin:0 380px; position: relative;}
+#content .content_area .mobile p {font-size: 24px; }
+#content .content_area .mobile img{float: left; width: 400px; margin-bottom: 80px;}
+
+#content .content_area .mobile .a{background: url(../images/content4/rightarrow.png) no-repeat; position: absolute; margin-left: 472px; padding: 34px; top:4640px;text-indent: -9999px;}
+
+
+#content .content_area .question{background: rgb(252, 231, 147); padding: 50px; border-radius: 50px 0;  box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);}
+#content .content_area .question dl{}
+#content .content_area .question dl dt{font-size: 24px;font-family: 'Nanum Gothic'; line-height: 2em; font-weight: bold;}
+#content .content_area .question dl dd {font-size: 18px; line-height: 1.7em;}
+#content .content_area .question dl dd::before{content: "◈"; font-size: 14px; margin-right: 15px;}
+
+

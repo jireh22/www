@@ -1,0 +1,22 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area{text-align:center;}
+#content .content_area img{margin-bottom: 50px; border-radius: 50px 0; box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3); }
+#content .content_area h3{font-size: 36px; font-family: 'Nanum Gothic';text-align:center; }
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #f07404; border-top:2px solid #f07404; width: 1100px;margin: 50px; margin-bottom: 100px;
+    font-size: 17px;font-family: 'Nanum Gothic';}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
+#content .content_area th.head{background: #f7f7f7;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding: 15px;}
+#content .content_area td.list{text-align: justify;line-height: 1.5em;}
+
+#content .content_area .preferential h3{font-size: 36px; font-family: 'Nanum Gothic';text-align:center; margin-top: 50px;}
+#content .content_area .preferential ul{margin: 50px 0;}
+#content .content_area .preferential ul li{font-size: 20px;font-family: 'Nanum Gothic';text-align:justify; line-height: 1.5em;}
+#content .content_area .preferential dl{border: 1px solid #ccc; border-radius: 15px;padding: 20px; background: #f7f7f7;}
+#content .content_area .preferential dl dt{font-size: 20px;font-family: 'Nanum Gothic';text-align:justify; font-weight: bold; line-height: 2em;}
+#content .content_area .preferential dl dd{font-size: 20px;font-family: 'Nanum Gothic';text-align:justify;line-height: 2em; margin-bottom: 20px;}
+
+
+

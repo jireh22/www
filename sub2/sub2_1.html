@@ -1,0 +1,316 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용정보-운영/운휴</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>이용정보</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li class="curent"><a href="./sub2_1.html">운영/운휴</a></li>
+                <li><a href="./sub2_2.html">이용방법</a></li>
+                <li><a href="./sub2_3.html">교통정보</a></li>
+                <li><a href="./sub2_4.html">가이드맵</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 이용정보 &gt; <strong>운영/운휴</strong></div>
+                 <h2>운영/운휴</h2>
+            </div>
+            <div class="content_area">
+                <h3>운영시간</h3>
+               <div class="box">
+                    <p>에버랜드 이용시간 : 10:00 ~ 20:00</p>
+                    <img src="./images/content1/lara.png" alt="라라">
+                    <img src="./images/content1/lenny.png" alt="레니">
+                    
+               </div>
+                
+                <ul>
+                    <li>- 현장 상황에 따라 에버랜드 운영 및 공연 일정이 예고 없이 변경될 수 있습니다.</li>
+                    <li>- 공연 일정은 매주 수요일에 최종 업데이트 되므로, 목요일 이후 방문 손님께서는 참고해 주십시오.</li>
+                </ul>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head">하이라이트공연</th>
+                            <th class="head">소요시간</th>
+                            <th class="head">장소</th>
+                            <th class="head">시간</th>
+                        </tr>
+                    </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>블링블링 X-mas 퍼레이드</td>
+                            <td>30분</td>
+                            <td>퍼레이드 길 & 카니발광장</td>
+                            <td>14:00</td>
+                        </tr>
+                        <tr>
+                            <td>문라이트 퍼레이드</td>
+                            <td>30분</td>
+                            <td>퍼레이드 길 & 카니발광장</td>
+                            <td>18:40</td>
+                        </tr>
+                        <tr>
+                            <td>Very Merry 산타 빌리지</td>
+                            <td>20분</td>
+                            <td>그랜드 스테이지</td>
+                            <td>12:20 15:50</td>
+                        </tr>
+                        <tr>
+                            <td>레니의 대모험 (Feat. 싱어롱쇼)</td>
+                            <td>50분</td>
+                            <td>그랜드 스테이지</td>
+                            <td>16:50</td>
+                        </tr>
+                        <tr>
+                            <td>매직 인 더 스카이</td>
+                            <td>10분</td>
+                            <td>포시즌스 가든</td>
+                            <td>19:30</td>
+                        </tr>
+                        <tr>
+                            <td>빛의 심포니</td>
+                            <td>5분</td>
+                            <td>포시즌스 가든</td>
+                            <td>118:00 18:30</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="head">소무대 거리공연</th>
+                            <th class="head">소요시간</th>
+                            <th class="head">장소</th>
+                            <th class="head">시간</th>
+                        </tr>
+                    </thead>
+               
+                    <tbody>
+                        <tr>
+                            <td>산타 포토타임(카니발 광장)</td>
+                            <td>20분</td>
+                            <td>카니발 광장</td>
+                            <td>12:30 15:30 16:30</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+             <table>
+                <thead>
+                    <tr>
+                        <th class="head">동물공연</th>
+                        <th class="head">소요시간</th>
+                        <th class="head">장소</th>
+                        <th class="head">시간</th>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr>
+                        <td>슈퍼윙스 애니멀 톡</td>
+                        <td>20분</td>
+                        <td>애니멀 원더 스테이지</td>
+                        <td>13:30 14:30 15:30 16:30</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        
+        
+        
+         <div class="Suspension">
+            <h3>운휴안내</h3>
+             <p>손님 여러분의 <span>안전을 위하여</span> 안전점검을 정기적으로 시행하고 있습니다.</p>
+             <ul>
+                 <li>-폭우, 강풍, 기온 저하 등 기상 악화 시 어트랙션 운행이 중단될 수 있으니 양해해 주시기 바랍니다.</li>
+                 <li>-운휴계획은 주간단위로 업데이트되므로 방문예정일의 운휴계획이 확정 전이라면
+                    방문일 전에 운휴계획을 재확인하시기 바랍니다.</li>
+                 <li>-운휴계획은 현장상황에 따라 예고없이 변경될 수 있습니다.</li>
+             </ul>
+
+             <dl>
+                 <dt>기상 상황별 어트랙션 운휴 기준</dt>
+                 <dd>-손님의 안전한 이용을 위해 아래와 같은 기상상황 및
+                    안전점검에 따라 어트랙션 운영이 중단 될 수 있습니다.</dd>
+                <dd>-파크 방문전 Daily 어트랙션 운영정보를 확인해 주시기 바랍니다.</dd>  
+             </dl>
+
+             <table>
+                <thead>
+                    <tr>
+                        <th class="head">구분</th>
+                        <th class="head">기준</th>
+                        <th class="head">시운전 및 운행 중단</th>
+                        
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr>
+                        <td rowspan="6"> 기온</td>
+                        <td>영하 10˚C<br>이하</td>
+                        <td class="list">나는코끼리, 콜럼버스대탐험, 비룡열차, 챔피온쉽로데오,<br>
+                            우주전투기, 허리케인, 페스티벌트레인,<br>
+                            스카이댄싱, 피터팬, 렛츠트위스트</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>영하 7˚C<br>이하</td>
+                        <td class="list">
+                            더블락스핀, 플라잉레스큐,<br>
+                            플래쉬팡팡, 매직스윙, 롤링엑스트레인</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>영하 5˚C<br>
+                            이하</td>
+                        <td class="list">T익스프레스, 레이싱코스터
+                            10℃ ↓ : 바퀴 히팅</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>0˚C 이하<br>
+                            이하</td>
+                        <td class="list">썬더폴스, 아마존익스프레스, 자이로VR, 로봇VR</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>제약 없음</td>
+                        <td class="list">스페이스투어, 슈팅고스트, 스푸키펀하우스<br>
+                            볼하우스, 헬로터닝어드벤처, 키즈커버리,<br>
+                            사파리월드, 프라이드인코리아, 붕붕카,<br>
+                            로보트카, 자동차왕국, 로얄쥬빌리캐로셀, 릴리댄스, 범퍼카,<br>
+                            시크릿쥬쥬비행기, 스카이크루즈, 스카이웨이,<br>
+                            휴먼스카이, VR어드벤처, 우주관람차VR, 안전체험관,<br>
+                            키즈빌리지,플레이야드, 매직쿠키하우스, 로테이팅 하우스</td>
+                        
+                    </tr>
+                  
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="4"> 우천</td>
+                        <td>약비</td>
+                        <td class="list">T익스프레스, 롤링X트레인, 레이싱코스터
+                            비룡열차, 매직스윙, 스카이웨이, 휴먼스카이
+                            로스트벨리</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>보통</td>
+                        <td class="list">더블락스핀, 렛츠트위스트, 플라잉레스큐,플레이야드<br>
+                            썬더폴스, 스카이댄싱, 우주전투기, 시크릿쥬쥬비행기<br>
+                            아마존EXP, 페스티발트레인</td>
+                        
+                       
+                    </tr>
+                    <tr>
+                        <td>강비</td>
+                        <td class="list">챔피언쉽로데오, 릴리댄스, 플래쉬팡팡,<br>
+                            로보트카, 붕붕카, 나는코끼리, 피터팬,<br>
+                            범퍼카, 자동차왕국,로얄쥬빌리캐로셀,<br>
+                            매직쿠키하우스<br>
+                            <br>
+                            * 단, T익스프레스는 목재 구조물의 특성상,<br>
+                            비가 그치더라도 점검으로 인하여 오픈이 다소<br>
+                            지연될 수 있습니다.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>제약없음</td>
+                        <td class="list">볼하우스, 스푸키펀하우스, 슈팅고스트, 로테이팅하우스,<br>
+                            스페이스투어, 헬로터닝어드벤처, 스카이크루즈, 키즈커버리<br>
+                            자이로VR, 프라이드인코리아, VR어드벤처, 로봇VR<br>
+                            <br>
+                            * 단, 태풍과 강풍을 동반한 우천시 일부 기종은 운영이<br>
+                            중단될 수 있습니다.</td>
+                        
+                    </tr>
+                </tbody>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="4">풍속</td>
+                        <td>4.2m/s 이상</td>
+                        <td>T익스프레스</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>10m/s 이상</td>
+                        <td class="list">콜럼버스대탐험, 허리케인, 더블락스핀, 렛츠트위스트,<br>
+                            롤링X트레인, 레이싱코스터, 플라잉레스큐, 플레이야드,<br>
+                            썬더폴스, 플래쉬팡팡, 나는코끼리, 매직스윙,스카이댄싱,<br>
+                            시크릿쥬쥬비행기, 비룡열차, 우주전투기, 페스티벌트레인,<br>
+                            아마존익스프레스, 스카이웨이, 휴먼스카이</td>
+                        
+                       
+                    </tr>
+                    <tr>
+                        <td>17m/s 이상</td>
+                        <td class="list">로보트카, 붕붕카,피터팬, 로얄쥬빌리캐로셀, 자동차왕국<br>
+                            챔피온쉽로데오, 릴리댄스, 범퍼카, 로스트밸리<br>
+                            
+                            * 스카이크루즈는 18m/s 이상 운행 불가.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>제약없음</td>
+                        <td class="list">스푸키펀하우스, 로테이팅하우스, 슈팅고스트,<br>
+                            스페이스투어, 키즈커버리, 헬로터닝어드벤처,<br>
+                            프라이드인코리아, 로봇VR, 매직쿠키하우스,<br>
+                            VR어드벤처, 우주관람차VR, 안전체험관,<br>
+                            키즈빌리지, 자이로VR, 볼하우스</td>
+                        
+                    </tr>
+                </tbody>
+    
+            </table>
+                    
+         </div>
+
+        
+                
+        </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+
+</body>
+</html>

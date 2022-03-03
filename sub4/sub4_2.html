@@ -1,0 +1,86 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>즐길거리-엔터테인먼트</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="./css/sub4_content2.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>즐길거리</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="./sub4_1.html">어트랙션</a></li>
+                <li class="curent"><a href="./sub4_2.html">엔터테인먼트</a></li>
+                <li><a href="./sub4_3.html">주토피아</a></li>
+                <li><a href="./sub4_4.html">플랜토피아</a></li>
+                <li><a href="./sub4_5.html">레스토랑</a></li>
+                <li><a href="./sub4_6.html">선물샵</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 즐길거리 &gt; <strong>엔터테인먼트</strong></div>
+                 <h2>엔터테인먼트</h2>
+            </div>
+            <div class="content_area">
+        
+                <div class="intro">
+                
+                    <p class="point">
+                        <span>다양한 <strong>공연정보!</strong></span>
+                    </p>
+                    
+                </div>
+
+                <div id="entertainment">
+                    <ul>
+                        <li><a class="current" href="sub4_2_data.html#blingbling">블링블링 <br>크리스마스 퍼레이드</a></li>
+                        <li><a href="sub4_2_data.html#santavillage">Very Merry!<br>산타빌리지</a></li>
+                        <li><a href="sub4_2_data.html#Lenny">레니의대모험!<br>드래곤성을 찾아서</a></li>
+                        <li><a href="sub4_2_data.html#Magic">매직 인 더 <br>스카이</a></li>
+                        <li><a href="sub4_2_data.html#moonlight">문라이트<br>퍼레이드</a></li>
+                    </ul>
+                </div>
+             
+                
+            
+              <div id="details">
+                      <!--이 위치에 데이터가 로드된다 -->
+              </div>
+
+
+        
+                
+            </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+    <script src="js/sub4_2.js"></script>
+
+</body>
+</html>

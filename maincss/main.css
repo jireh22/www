@@ -1,0 +1,135 @@
+/* 비주얼 영역 */
+.visual{width: 2000px; height:900px; margin-top: 185px; position: relative; top: 0; left: 50%; margin-left: -1000px;}
+.visual .gallery img{border:0; vertical-align:top;}
+.visual .gallery ul{list-style: none;}
+.visual .gallery{position:relative;overflow:hidden; width:10000px;
+    height:1334px;left:0; top:0;}
+.visual .gallery ul li{ float:left;}
+
+
+/* .visual .gallery_text{position: absolute; top: 150px;
+      width: 100%; }
+.visual .gallery_text li{text-align: center;
+    font-size: 50px; color: #fff; background: rgba(0,0,0,.7); padding: 20px 0; display: none} */
+
+.visual .dock{width:500px; position:absolute; left:882px; top:815px;}
+
+.visual .dock span.mbutton{ margin-right:20px; cursor:pointer; display:block;
+    float:left;  width:22px; height:22px; background: #fff; border-radius:15px; transition: all .5s}
+.visual .dock .ps{ margin-right:15px; margin-top: -2px; cursor:pointer; display:block; float:left; 
+    width:26px; height:26px; background:url(../images/play.png)center center no-repeat;}
+
+
+/* 본문 콘텐츠 영역 */
+
+/* #content .recruit{width: 2000px; height: 300px;  position: relative; top:0;
+left: 50%; margin-left: -955px; background:url(../images/우산2.jpg)0 300px no-repeat;
+background-attachment: fixed;}  */
+
+#content{width: 1200px; margin: 0 auto;}
+#content .operating_hours{overflow: hidden; }
+#content .operating_hours::after{content: ''; display: block; width: 200%; height: 1px;
+     background: #ccc; position: absolute; left:0}
+
+#content .operating_hours p{font-size: 1.5em; color: #333; 
+    font-family: 'Nanum Gothic'; font-weight: 700; text-align: center;  margin: 50px 0;
+    background: url(../images/time.jpg) 410px center no-repeat;}
+
+#content .discont{position: relative; margin-top: 142px; } 
+#content .discont h3{margin-bottom: 30px; text-align: center; font-size: 50px;
+    font-family: 'Roboto'; font-weight: 700; color: #333; text-transform: capitalize;} 
+#content .discont p {margin-bottom: 50px; text-align: center;  font-weight: 700; 
+    color: #666;font-family: 'Roboto'; font-weight:400 ; font-size: 26px;}   
+#content .discont ul{overflow: hidden; margin:0 0 50px 95px; padding: 20px ;}
+#content .discont li{width:250px ;float:left ; border: 1px solid #ccc; text-align: center; height: 300px;}
+#content .discont li:hover{border: 1px solid #892fd5;transition: all .5s; box-shadow: 2px 2px 10px 1px rgba(0,0,0,.3);}
+#content .discont li a{display: block;font-family: 'Nanum Gothic'; font-weight: 400;}
+#content .discont li img{margin: 15px 0 30px;}
+#content .discont li span{display: block; line-height: 1.5em;}
+#content .discont .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+  border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 130px; transition: all .5s}
+#content .discont .more:hover{background:#e56605 ;}
+
+
+#content .performance{font-family: 'Nanum Gothic'; padding:140px 0; background: orangered url(../images/mainlogo_1.png) right bottom no-repeat;
+    width: 1200px;position: relative;}
+#content .performance h3{margin-bottom: 30px; text-align: center; font-size: 50px; font-weight: 700; color: #fff;}
+#content .performance p{margin-bottom: 50px; text-align: center; color: #fff; font-weight:400 ; font-size: 18px;}
+#content .slide_gallery{ position: relative; left: 0; top: 0; width: 2400px;overflow: hidden;}
+#content .slide_gallery ul{float: left; margin:0 0 50px 53px; padding: 35px 0;}
+
+#content .slide_gallery ul li{float:left; width:200px; height: 317px; margin-right: 49px;text-align: center; box-shadow: 5px 4px 10px 0px;}
+#content .slide_gallery li:hover{transform: scale(1.1);transition: 1s 0s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 1s;}
+#content .slide_gallery ul li img{box-shadow: 5px 4px 10px 0px;}
+
+#content .slide_gallery li a{color: #fff; display: block; position: relative; margin-top: -30px;}
+#content .slide_gallery .crazy{float: right; width: 100px;}
+
+
+#content .performance .btn{text-align:center;}
+#content .performance .btn a{display: inline-block; vertical-align:middle; margin-left:20px;}
+#content .performance .btn a:first-child{margin-left:0;}
+#content .performance .more{width: 300px; height: 54px; line-height:50px; background:#fff; border-radius: 25px; border: 2px solid #fff; 
+    color: #333; font-size:18px; font-weight: 700; text-align:center; box-sizing:border-box; transition: all .5s;}
+#content .performance .more:hover{background: orangered; color: #fff;}
+
+
+
+
+#content .attraction {font-family: 'Nanum Gothic'; padding:140px 0; background: #15b549 url(../images/mainlogo_2.png) left bottom no-repeat;}
+#content .attraction h3{text-align: center; font-size: 50px; font-weight: 700; color: #fff; margin-bottom: 80px;}
+
+#content .attraction ul{overflow:hidden; width: 1000px; margin:0 auto;}
+#content .attraction ul li{float:left; width: 235px; height: 215px; overflow: hidden; margin:20px 0 0 20px;}
+#content .attraction ul li a{display: block;}
+#content .attraction ul li .image img{transform: scale(1); transition: all .5s;}
+#content .attraction ul li:hover .image img{transform:scale(1.1);}
+#content .attraction ul li:first-child{width:490px;}
+#content .attraction ul li:last-child{width:490px;}
+#content .attraction ul li:nth-child(-n+3){margin-top:0;}
+#content .attraction ul li:nth-child(3n+1){margin-left:0;}
+
+#content .attraction  .more{display: block; width: 300px; height: 54px; line-height:50px; background:#fff; border-radius: 25px; font-size:18px; 
+    text-align:center; box-sizing:border-box; border: 2px solid #fff; color: #333; font-weight: 700; margin: 45px auto 0; transition: all .5s}
+#content .attraction  .more:hover{background: #15b549; color: #fff;}
+
+
+
+
+
+#content .news {position: relative; margin-top: 142px;} 
+#content .news h3{margin-bottom: 30px; text-align: center; font-size: 50px;
+    font-family: 'Roboto'; font-weight: 700; color: #333; text-transform: capitalize;}
+#content .news ul{overflow: hidden; margin:0 0 48px 42px; overflow: hidden;}
+/* #content .news li{width:234px; height: 308px; margin: 21px; float:left; text-align: center;font-size:16px ; font-weight: bold;
+    line-height: 1.5;  border: 1px solid #ccc; transition: all .5s;} */
+#content .news li{width:300px; height: 420px; margin: 21px; float:left; text-align: center;font-size:16px ; font-weight: bold;
+    line-height: 1.5;  border: 1px solid #ccc; transition: all .5s;}
+#content .news li:hover{transform: scale(1.1); box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);}
+#content .news li a{display: block;font-family : 'Nanum Gothic';}
+#content .news li p{padding: 4px; margin-bottom: 15px;}
+#content .news li span{color: #999;}
+#content .news li img{margin: 0 0 28px; width: 300px; height: 265px;}
+#content .news .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+    border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 130px; transition: all .5s}
+#content .news .more:hover{background:#e56605 ;}
+
+
+
+
+
+
+#content .story{position: relative; margin-top: 142px;padding-top: 100px; background: #f6f6f6;overflow: hidden;} 
+#content .story h3{margin-bottom: 30px; text-align: center; font-size: 50px;
+    font-family: 'Roboto'; font-weight: 700; color: #333; text-transform: capitalize;}
+#content .story p{margin-bottom: 50px; text-align: center;  font-weight: 700; 
+        color: #666;font-family: 'Nanum Gothic'; font-weight:bold; font-size: 24px;}
+#content .story ul{overflow: hidden;padding:30px 0 0 85px;}  
+#content .story li{width:200px; height: 360px; margin-right: 65px; float:left; text-align: center;font-size:16px ; font-weight: bold;
+    line-height: 1.5em;}      
+#content .story li img{margin-bottom: 42px;transition: all .5s;}
+#content .story li:hover img{transform: scale(1.1); }
+#content .story li a{font-family: 'Nanum Gothic'; font-weight:bold; font-size: 16px; text-align: center;}
+#content .story .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+        border-radius: 25px; color:#fff; text-align:center;width: 220px; margin: 0 auto 130px; transition: all .5s}
+#content .story .more:hover{background:#e56605 ;}    

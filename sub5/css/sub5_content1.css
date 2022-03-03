@@ -1,0 +1,46 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+
+#content .content_area{}
+#content .content_area p{font-size: 24px; font-family: 'Nanum Gothic';text-align:justify; margin-top: 30px;line-height: 1.5em;} 
+#content .content_area p span{color:#f07404;font-weight: bold;  }
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #f07404; border-top:2px solid #f07404; width: 1200px;margin: 50px 0;}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area th.head{background: #fffdf4;padding: 10px 0; text-align: center; border-right: 1px solid #ccc;font-size: 20px;border-left: 1px solid #ccc;}
+#content .content_area th.head_1{background: #d1d1d1;border-left: 1px solid #ccc;}
+#content .content_area th.body{background: #e9e3e0;padding: 10px 0;border-left: 1px solid #ccc; width: 10%;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; border-right: 1px solid #ccc; border-left: 1px solid #ccc; width: 30%; padding: 20px 20px; line-height: 1.7em;}
+#content .content_area td span{color: red;}
+#content .content_area tr td.list{text-align: justify;padding: 15px 5px 15px 5px;}
+
+#content .content_area dl{margin-bottom: 50px;}
+#content .content_area dl dt{font-size: 24px;font-family: 'Nanum Gothic'; font-weight: bold;line-height: 2em; margin-top: 30px;}
+#content .content_area dl dd{font-size: 20px;font-family: 'Nanum Gothic'; line-height: 1.7em;}
+#content .content_area dl dd::before{content: "·"; margin-right: 5px;} 
+
+
+#content .content_area .rules{float:right;width: 48%; height: 500px; margin-left: 10px; box-sizing: border-box; background: burlywood; padding: 50px; margin-bottom: 100px;border-radius: 25px;}
+#content .content_area .rules img{margin-left: 90px; margin-bottom: 30px;}
+#content .content_area .rules ul{}
+#content .content_area .rules ul li{font-size: 18px; font-family: 'Nanum Gothic'; line-height: 1.7em;}
+
+#content .content_area .charter{position: relative; width: 48%; height: 500px; margin-left: 10px; box-sizing: border-box; background: burlywood; padding: 50px;margin-bottom: 100px;border-radius: 25px;}
+#content .content_area .charter img{margin-left: 90px;margin-bottom: 30px;}
+#content .content_area .charter ul{}
+#content .content_area .charter ul li{font-size: 18px; font-family: 'Nanum Gothic';line-height: 1.7em;}
+
+
+
+/* #content .content_area .right{background: url(../images/content1/animal01.png); background-repeat:no-repeat ;} */
+
+#content .content_area .education{text-align: center; border-radius: 10px;box-shadow: 0 2px #c7c7c7; padding: 50px; position: relative; height: 80px; overflow: hidden; border: 1px solid #ccc;
+margin-bottom: 100px;}
+#content .content_area .education{font-size: 13px; font-family: 'Nanum Gothic'; line-height: 1.5em;}
+#content .content_area .education img{width:100% ; }
+#content .content_area .education ul{}
+#content .content_area .education ul li{float: left;width: 14.28%;margin: -5px 0 25px; padding: 0 5px 0; box-sizing: border-box; border-right: 1px solid #ccc;}
+
+
+
+
+

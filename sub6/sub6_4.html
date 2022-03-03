@@ -1,0 +1,105 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담센터-FAQ</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub6_content4.css">
+
+    
+    <script src="../common/js/prefixfree.min.js"> </script>
+
+</head>
+<body>
+    <? include "../common/sub_header.html"?>
+        
+        <div class="visual">
+            <img src="./common/images/visual.jpg" alt="">
+            <h3>상담센터</h3>
+        </div>
+        
+        <div class="sub_menu">
+            <ul>
+                <li><a href="../concert/list.php">뉴스공지</a></li>
+                <li><a href="./sub6_2.html">FAQ</a></li>
+                <li><a href="./sub6_3.html">방문전 이용 문의</a></li>
+                <li class="curent"><a href="./sub6_4.html">유실물 확인</a></li>
+                
+            </ul>
+        </div>
+        
+        <article id="content">
+            <div class="title_area">
+                 <div class="line_map">home &gt; 상담센터 &gt; <strong>유실물 확인</strong></div>
+                 <h2>유실물 확인</h2>
+            </div>
+            <div class="content_area">
+                <p>유실물 확인 방법 안내 <span>경찰청 로스트 112 사용</span></p>
+                <img src="./images/content4/lost112_01.png" alt="경찰청 로스트 112">
+                <div class="lost">  
+                    <P>에버랜드에서는 2020년 8월 15일 이후 습득한 유실물을 경찰청 유실물 찾기 시스템인<br> 
+                     <strong>Lost112</strong>에 등록하여 공개하고 있으며,유실물은 습득후 6개월간 보관하고 있습니다.</P>
+                     <img src="./images/content4/lost112_06.png" alt="분실물">
+                     <dl>
+                         <dt>에버랜드에서 분실하신 물품이 있는 경우 Lost112 웹사이트 혹은 모바일 앱을 통해 <br>습득 여부를 확인할 수 있습니다.</dt>
+                         <dd>pc용 웹사이트:www.lost112.go.kr</dd>
+                         <dd>모바일앱:PLAY STORE 또는 APP STORE 에서 "Lost112" 검색하여 다운로드</dd>
+                     </dl>
+
+                     <div class="pc">
+                         <p><span>PC</span></p>
+                         <p>PC 용 웹사이트에서는 '주인을 찾아요(습득물)'메뉴 선택 후 기간 설정, <br> 보관장소에 '에버랜드'를 검색하시면 확인하실 수 있습니다.</p>
+                         
+                        <ul>
+                            <li><img src="./images/content4/lost112_02.jpg" alt="pc용웹사이트1"></li>
+                            <li><img src="./images/content4/lost112_03.jpg" alt="pc용웹사이트2"></li>
+                        </ul>
+                     </div>
+
+
+                     <div class="mobile">
+                        <p><span>App</span></p>
+                        <p>Lost112 모바일 앱에서는 앱 실행 후 검색 시 습득지역>경기도,습득장소>놀이공원으로 선택하시면 에버랜드의 습득물을 확인하실 수 있습니다.</p>
+                        <img src="./images/content4/lost112_04.jpg" alt="Lost112 모바일 앱1">
+                        <div class="a">화살표</div>
+                        <img src="./images/content4/lost112_05.jpg" alt="Lost112 모바일 앱2">
+
+                        
+                    </div>
+                
+                </div>
+                <div class="question">
+                    <dl>
+                        <dt>참고사항</dt>
+                        <dd>음식물은 당일 폐기되며,부태되는 젖은 물품 및 사용이 불가능한 물품은 습득 후 2~3일 내 폐기될 수 있습니다.</dd>
+                        <dd>고가의 귀중품은 월1회 용인동부경찰서 생활질서계로 인계하고 있으며,휴대폰은 우체국으로 인계하고 있습니다.</dd>
+                        <dt>2020년 8월15일 이전 유실물은 전화로 문의해주시기 바랍니다.</dt>
+                        <dd>유실물 관련 전화 문의 (각 파크 운영시간 중 통화 가능)</dd>
+                        <dd>에버랜드 손님상담실 031-320-5050</dd>
+                        <dd>케리비안베이 안내 031-320-5085</dd>
+                    </dl>
+                    
+                </div>
+                
+                
+            </div>
+        </article>
+         
+        
+    <? include "../common/sub_footer.html"?>
+  
+
+
+</body>
+</html>

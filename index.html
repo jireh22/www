@@ -1,0 +1,211 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에버랜드</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico" >
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <script src="./common/js/prefixfree.min.js"> </script>
+    <script src="./mainjs/mainpopup.js"></script>
+</head>
+<body>
+
+    <? include "./common/main_header.html"?>
+    
+
+    <div class="visual">
+        <div class="gallery">
+            <ul>
+                 <li><a href="#"><img src="./images/visual_01.jpg" alt='' /></a></li>
+                 <li><a href="#"><img src="./images/visual_02.jpg"alt='' /></a></li>
+                 <li><a href="#"><img src="./images/visual_03.jpg" alt='' /></a></li>
+                 <li><a href="#"><img src="./images/visual_04.jpg" alt='' /></a></li>
+                 <li><a href="#"><img src="./images/visual_05.jpg" alt='' /></a></li>
+           </ul>
+    </div>
+    
+    <!-- <div class="gallery_text">
+        <ul>
+            <li>이미지 텍스트01</li>
+            <li>이미지 텍스트02</li>
+            <li>이미지 텍스트03</li>
+            <li>이미지 텍스트04</li>
+            <li>이미지 텍스트05</li>
+        </ul>
+    </div> -->
+    
+    
+   <div class="dock">
+         <span class="mbutton  btn1" ></span>
+         <span class="mbutton  btn2" ></span>
+         <span class="mbutton  btn3" ></span>
+         <span class="mbutton  btn4" ></span>
+         <span class="mbutton  btn5" ></span>
+         <span class="ps" style="background: url(./images/stop.png) center center no-repeat;" ></span>
+   </div>
+ 
+    </div>
+
+   <article id="content">
+     <h2 class="hidden">본문콘테츠영역</h2>
+
+    <div class="operating_hours">
+        <h3 class="hidden">운영시간</h3>
+        <P>오늘의 운영시간 10:00-21:00</P>
+    </div>
+
+    <div class="discont">
+        <h3>ticket promotion</h3>   
+        <p>나에게 꼭 맞춘 할인정보</p>
+        <ul>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_01.jpg" alt="중/고/대학(원)생종일권 특별우대!"><span>중 &#47; 고 &#47; 대학(원)생 <br>종일권 특별우대!</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_02.jpg" alt="군인 간부 50% 특별 우대"><span>군인 간부 50% 특별 우대</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_03.jpg" alt="[2인권] 키즈 패키지"><span>[2인권] 키즈 패키지</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_04.jpg" alt="날짜지정 종일권"><span>날짜지정 종일권</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_05.jpg" alt="BC카드 전회원1+1우대"><span>BC카드 전회원<br>1+1우대</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_06.jpg" alt=">KT멤버십 현장우대"><span>KT멤버십 현장우대</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_07.jpg" alt="용인 시민 오후권 특별 할인"><span>용인 시민 오후권 특별 할인</span></a></li>
+            <li><a href="./sub3/sub3_2.html"><img src="./images/discount_08.jpg" alt="선물용 이용권 판매"><span>선물용 이용권 판매</span></a></li>
+        </ul>
+        <a class="more" href="./sub3/sub3_2.html">할인정보 자세히 보기</a>
+     </div>
+
+    <div class="performance">
+       <h3>퍼레이드 및 공연정보</h3> 
+       <p>다양한 공연정보를 확인해보세요.</p> 
+
+        <div class="slide_gallery">
+           <ul>
+               <li><img src="./images/perfomance_01.jpg" alt="juke box 불꽃놀이"><a href="#">juke box_불꽃놀이</a></li>
+               <li><img src="./images/perfomance_02.jpg" alt="할로윈 위키드 퍼레이드"><a href="#">할로윈 위키드 퍼레이드 </a></li>
+               <li><img src="./images/perfomance_03.jpg" alt="문라이트 퍼레이드"><a href="#">문라이트 퍼레이드</a></li>
+               <li><img src="./images/perfomance_04.jpg" alt="달콤살벌 TRLCK OR TREAT"><a href="#">달콤살벌 TRLCK OR TREAT</a></li>
+               <li class="crazy"><img src="./images/perfomance_05.jpg" alt="크레이지 좀비 헌트"><a href="#">크레이지 좀비 헌트</a></li> 
+           </ul>
+        </div>
+        
+        <div class="btn">
+            <a class="more" href="./sub4/sub4_2.html">더많은 공연 보기</a>
+            <a href="#" class="p1 button"><img src="./images/perfomance_06.png" alt="이전"></a>
+            <a href="#" class="p2 button"><img src="./images/perfomance_07.png" alt="다음"></a>
+        </div>
+    </div>
+
+    <div class="attraction">
+       <h3><span>재미있고 신나는 어트랙션!</span></h3>
+       <ul>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_01.jpg" alt="렛츠트위스트"></div></a></li>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_02.jpg" alt="썬더폴스"></div></a></li>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_03.jpg" alt="더블락스핀"></div></a></li>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_04.jpg" alt="롤링엑스트레인"></div></a></li>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_05.jpg" alt="레이싱코스터"></div></a></li>
+           <li><a href="./sub4/sub4_1.html"><div class="image"><img src="./images/attraction_06.jpg" alt="사파리월드"></div></a></li>
+       </ul>
+
+       
+       <a class="more" href="./sub4/sub4_1.html">더 많은 어트랙션 보기</a>
+    </div>
+
+  
+    <? include "./lib/func.php"; ?>
+    <div class="news">
+       <h3><span>news</span></h3>  
+       <ul><? latest_article("concert", 6, 30); ?></ul>
+       <!-- <ul>
+           <li><img src="./images/news_01.jpg" alt="락스빌에서 펼쳐지는 상상초월 이스케이프 게임"><a href="#">락스빌에서 펼쳐지는<br> 
+            상상초월 이스케이프 게임 </a></li>
+           <li><img src="./images/news_02.jpg" alt="Dark Xircus의 충격적인 전말! Immersive Game"><a href="#">Dark Xircus의 충격적인 전말!<br>
+            Immersive Game</a></li>
+           <li><img src="./images/news_03.jpg" alt="[2/25 Open] 인생네컷 x 포토드링크 에버랜드점"><a href="#">[2/25 Open]인생네컷<br> 
+            포토드링크 에버랜드점</a></li>
+           <li><img src="./images/news_04.jpg" alt="동물원 팬 커뮤니티 주토피아 오픈"><a href="#">동물원 팬 커뮤니티<br>
+            ‘주토피아’오픈</a></li>
+           <li><img src="./images/news_05.jpg" alt="아름다운 나비와 함께 미리 봄을 만나보세요"><a href="#">아름다운 나비와 함께<br> 
+           미리 봄을 만나보세요</a></li>
+           <li><img src="./images/news_06.jpg" alt="호랑이 쿠션 펀딩 벌써 마감임박!"><a href="#">호랑이 쿠션 펀딩<br>
+            벌써 마감임박!</a></li>
+           <li><img src="./images/news_07.jpg" alt="서울대 멘토와 함께하는 고교생활 멘토링 캠프"><a href="#">서울대 멘토와 함께하는<br> 
+            고교생활 멘토링 캠프</a></li>
+           <li><img src="./images/news_08.jpg" alt="무궁이태범이"><a href="#">무궁이태범이<br>
+            카카오톡 이모티콘 출시</a></li>
+           
+       </ul> -->
+
+       <a class="more" href="./concert/list.php">더 많은 뉴스 보기</a>
+    </div>
+
+    <div class="story">
+       <h3><span>Editor’s Clip</span></h3>  
+       <p>매일 매일이 즐거워~에버랜드 이야기</p>  
+
+       <ul>
+           <li><img src="./images/story_01.png" alt="대나무 먹방 ASMR"><a href="./sub1/sub1_5.html">대나무 먹방 ASMR <br>
+            판다가족 힐링타임</a></li>
+           <li><img src="./images/story_02.png" alt="네잎클로버보다"><a href="./sub1/sub1_5.html">네잎클로버보다<br>
+            세잎클로버가 더 좋다?!</a></li>
+           <li><img src="./images/story_03.png" alt="아기판다의 하루"><a href="./sub1/sub1_5.html">아기판다의 하루<br>
+            푸바오 생활계획표</a></li>
+           <li><img src="./images/story_04.png" alt="아기호랑이 오둥이"><a href="./sub1/sub1_5.html">아기호랑이 오둥이<br>
+            5범5색 관찰캠</a></li>
+           <li><img src="./images/story_05.png" alt="에버랜드 CAST의"><a href="./sub1/sub1_5.html">에버랜드 CAST의<br> 
+            온도차이!!?</a></li>
+           <li><img src="./images/story_06.png" alt="달콤살벌 trick or treat"><a href="./sub1/sub1_5.html">달콤살벌 <br>trick or treat</a></li>
+           <li><img src="./images/story_07.png" alt="에버랜드 방문 전 확인!"><a href="./sub1/sub1_5.html">에버랜드 방문 전 확인!<br> 
+            영상 내비게이션 </a></li>
+           <li><img src="./images/story_08.png" alt="에버랜드가 전하는 응원"><a href="./sub1/sub1_5.html">에버랜드가 전하는 응원<br>
+            #덕분에챌린지#국민덕분에</a></li>
+       </ul>
+       <a class="more" href="./sub1/sub1_5.html">더 많은 꿀팁 보러가기</a>
+    </div>
+
+    <!-- <div class="recruit">
+        <div class="inner">
+            <h3>인재채용</h3>
+            <p>에버랜드와 함께 할 역량있는 인재를 찾습니다.</p>
+            <a href="#"> 바로가기</a>
+        </div>
+    </div> -->
+
+
+   </article>
+
+   <? include "./common/main_footer.html"?>
+
+   <script src="mainjs/move.js"></script>
+   <script src="mainjs/slide.js"></script>
+<!-- 공지사항 팝업 -->
+<div id="showimage" style="z-index:99;position:absolute;width:322px;left:150px;top:300px;">
+    <script>
+      function closeWin(){
+         var chk = document.getElementById('Notice')
+         if ( chk.checked ) {
+               setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+          }
+      }
+     if ( getCookie( "Notice" ) == "done" ) {
+         hidebox();
+     }
+   </script>
+      <div>
+            <img src="popup/popup.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+      </div>
+       <div style="font-size:12px;text-align:center;color:#fff;">
+         <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+       <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
