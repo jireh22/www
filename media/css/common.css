@@ -1,0 +1,169 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+html{font-size: 16px;}
+body {font-family:'돋움', Dotum;color:#333;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333;text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block; position: absolute; left:-1000%; top:0; width: 1px; height: 1px;
+    overflow: hidden; color: #fff;}
+
+/* font-family: 'Cabin', sans-serif; */
+
+/* 와이드 pc */
+
+
+
+/* 헤더 공통 영역 */
+#wrap{width: 100%; overflow: hidden;}
+
+
+
+#headerArea{position:fixed; z-index: 30; height: 80px; background: rgba(0,0,0,.9); left:0; top: -150px; width: 100%;}	
+#headerArea	.headerInner{width: 90%; margin: 0 5%; overflow: hidden;}
+#headerArea h1{ float: left; margin-top: 15px}
+#headerArea h1 a{color: #fff; text-decoration: none; background: url(../images/logo.png)0 0 no-repeat; display: block;
+    width: 130px;height: 111px; text-indent: -9999px;}	
+#headerArea #gnb{float: right;margin-top: 25px}
+#headerArea #gnb ul{overflow: hidden}
+#headerArea #gnb ul li{float: left; margin-right: 15px;}
+#headerArea #gnb ul li a{color: #ffd900; text-decoration: none;font-family: 'Cabin', sans-serif; font-size: 1.8rem;}
+
+#headerArea .menuOpen{position: fixed; right: 50px; top: 50px; width: 65px; height: 65px; background: #164e98;
+    text-indent: -9999px; overflow: hidden; border-radius: 50%; transition: .5s; z-index: 500; display: none;}
+
+#headerArea .menuOpen span{position: relative; display: block; width: 20px; height: 5px; background: #e20025;  margin: 30px 28px; border-radius: 30px;}
+#headerArea .menuOpen span::before,
+#headerArea .menuOpen span::after{content:''; position: absolute; right: 0; display:block; width: 30px; height: 5px; background: #ffd900; border-radius: 30px; transition: .3s;}
+#headerArea .menuOpen span::before{top: 12px;}
+#headerArea .menuOpen span::after{top: -12px;}
+    /* open */
+    #headerArea .menuOpen.open span{background:rgba(0,0,0,0);}
+    #headerArea .menuOpen.open span::before{transform: rotate(-45deg); top: 0;}
+    #headerArea .menuOpen.open span::after{transform: rotate(45deg); top: 0;}
+
+    /* on */
+    #headerArea.on{top:0;} /* header 스크롤 on off */
+
+
+/* 푸터 공통 영역 */
+
+#footerArea{background: #212121; padding: 100px 0; position: relative;}
+#footerArea .footer_inner{width: auto; padding: 0 4%;}
+#footerArea p{text-align: center; font-size: 14px; line-height: 2em; 
+    font-family: 'Cabin', sans-serif; color: #fff; margin-top: 50px;}
+#footerArea img{display: block ; margin: 0 auto;}
+#footerArea a{display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background: #212121;
+    color: #fff;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    margin-left: -40px;
+    text-align: center;  
+}
+#footerArea a:hover{animation: toTop 1s infinite;}
+@keyframes toTop {
+    0% { transform: scale3d(1, 1, 1); }
+    30% { transform: scale3d(0.75, 1.25, 1); }
+    40% { transform: scale3d(1.25, 0.75, 1); }
+    50% { transform: scale3d(0.85, 1.15, 1); }
+    65% { transform: scale3d(1.05, 0.95, 1); }
+    75% { transform: scale3d(0.95, 1.05, 1); }
+    100% { transform: scale3d(1, 1, 1); }
+  }
+#footerArea a span {
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+	
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+    /* 헤더변신 -----------------------------------------------*/
+    /* #wrap .menuOpen{ display:block;} */
+    /* #headerArea #gnb{display:none;}
+    #headerArea.active #gnb{display: block;} */
+    #headerArea .menuOpen{display:block;}
+    
+    /* respon */
+    #headerArea.on.respon{top: -150px;}
+
+    #headerArea h1{display: none;}
+    #headerArea #gnb{float:none; width: 100%; position:fixed; left: 0; top: 0; margin:0; background:rgba(0,0,0,0.9); display: none;}
+    #headerArea #gnb::before{content:''; display:block; width:100%; height: 100px; background:url(../images/logo.png) 50% 50% no-repeat; background-size:auto 100%; margin: 2rem 0 1rem;}
+    #headerArea #gnb ul{padding:0 0 2rem;}
+    #headerArea #gnb ul li{float:none; width: auto; margin: 0; text-align:center;}
+    #headerArea #gnb ul li a{display: block; padding:2rem 0;}
+    
+    /* #headerArea.respon #gnb{display: block;} */
+
+
+    /* #headerArea{ z-index: 100;position: fixed!important;top: -100px!important; }
+    #wrap .menuOpen{ display:block }
+    #headerArea #gnb{float: inherit; width: auto; margin-top: 20px;} 
+    #headerArea #gnb ul {display: none;}
+    #headerArea #gnb ul li{padding: 15px 0; width: 100%; background: rgba(0,0,0,.9); float:none; margin:0; text-align:center }
+    #headerArea .headerInner {width: 100%; margin: 0;}
+    #headerArea #gnb ul li a {padding: 15px 0;line-height: 2em;font-size: 28px;}
+    #headerArea .headerInner{padding: 0;}
+    #headerArea h1{ float: inherit; margin-top: 30px;}
+    #headerArea #gnb ul li:last-of-type {
+        padding-bottom: 30px;
+    }
+    #headerArea .headerInner h1 a{
+        width: 70px;
+        height: 50px;
+        background-size: contain;
+    margin: 0 auto;} */
+
+
+} 
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    #wrap .menuOpen{ top: 35px; right: 35px;}
+
+    #footerArea{padding: 60px 0;}
+    #footerArea img{width: 15%;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#wrap .menuOpen{ top: 15px; right: 15px;}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px; }
+}

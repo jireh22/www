@@ -1,0 +1,179 @@
+/* 와이드 pc  */
+
+	
+#wrap{width: 100%; overflow: hidden; }
+/* visual */
+.videoBox {width:100%; height:100%; overflow:hidden; position:absolute;} 
+
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+  
+}
+
+.down{display: block; font-size: 20px; position: absolute; 
+	 left:50%; margin-left: -60px; bottom: 20%;
+	animation:ani 1s infinite  alternate; margin-bottom: -105px; font-family: 'Cabin', sans-serif;}
+.down span{display: block;width: 75px;height: 115px;background: url(../images/forky.png)0 0 no-repeat; margin: 15px auto 0; position: relative;}   
+@keyframes ani {
+	0% { transform:scale(1); opacity:1; color:#fff;}
+	100% { transform:scale(1.2); opacity:0.8; color:#888;}
+}
+
+
+
+	
+
+/* 와이드 pc  */
+
+#content h2{font-family:'Cabin', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -100px;
+    text-align: center;
+    font-size: 180px;
+    font-weight: normal;
+    color: #ffd900;
+    text-shadow: 5px 3px 0px rgba(0,0,0,.7);
+   
+
+ }
+
+#content{padding: 120px 0; background:rgba(0,0,0,.8);}
+#content section{width: 100%; overflow: hidden;}
+#content h3{text-align: center; font-size: 60px; color: #ffd900; font-family:'Cabin', sans-serif; margin-bottom: 80px;}
+#content .toystory{width: 90%; margin: 0 5%;}
+#content .toystory>p{text-align: center; margin-bottom: 60px; color: #fff;font-family:'Cabin', sans-serif;font-size: 24px;}
+#content .toystory .story_img{overflow: hidden; margin-bottom: 120px;}
+#content .toystory .story_img li:nth-of-type(1){width: 49%;  margin-right: 1%; height: 300px;  float: left;
+   background: #ffd900;
+   transition: .3s;
+   box-sizing: border-box;
+   position: relative;}
+#content .toystory .story_img li:nth-of-type(1):hover{padding: 12px; }
+#content .toystory .story_img2 ul li:hover{padding: 12px; }
+#content .toystory .story_img li:nth-of-type(1)>div{ width: 100%;  height: 100%; background: url(../images/sub1/sub01.jpg)left no-repeat; background-size: cover;}
+#content .toystory .story_img2{overflow: hidden; width: 50%;  float: right;}
+#content .toystory .story_img2 ul{position: relative; overflow: hidden;}
+#content .toystory .story_img2 ul li:nth-of-type(1){float: left; width: 49%; margin-right: 1%;}
+#content .toystory .story_img2 ul .last{float: right; width: 50%;}
+#content .toystory .story_img2 ul li{  background: #ffd900;
+   transition: .3s;
+   box-sizing: border-box;
+   position: relative;float: left; width: 49%; height: 300px;}
+#content .toystory .story_img2 ul li:nth-of-type(1)>div{width: 100%; height: 100%; background: url(../images/sub1/sub01_2.jpg)center no-repeat; background-size: cover; }
+#content .toystory .story_img2 ul .last>div{width: 100%; height: 100%;  background: url(../images/sub1/sub01_3.jpg)center no-repeat; background-size: cover; }
+
+#content .sentance{height: 300px;
+   background: url(../images/sub1/sub1back.jpg) no-repeat center;
+   background-size: cover;
+   background-attachment: fixed;
+   overflow: hidden;
+   margin-bottom: 120px;}
+#content .sentance>p{text-align: center; margin-top: 115px; font-size: 50px;font-family:'Cabin', sans-serif;color: #fff;}
+
+#content .world{width: 90%; margin: 0 5%;}
+#content .world .world_img{width: 100%; overflow: hidden; }
+#content .world .world_img img{transition: .5s; }
+#content .world .world_img img:hover{filter: sepia(100%);  }
+#content .world .world_img img:nth-of-type(1){width: 49%; margin-right: 1%; float: left;}
+#content .world .world_img img:nth-of-type(2){width: 49%;float: right;}
+
+#content .world p{line-height: 2em; color: #fff; margin: 60px 0 120px 0; text-align: center; font-size: 24px;font-family:'Cabin', sans-serif;}
+#content .world div{width: 100%;}
+#content .world .odd img{float: left; width: 48%; margin-right: 2%; border-radius:10% 50% / 50% 10%;}
+#content .world .odd {overflow: hidden; margin-bottom: 60px; }
+#content .world .odd dl{padding-top: 30px; float: right; width: 48%; margin-left: 2%;}
+#content .world .odd dt{text-align: center; font-family: 'Cabin', sans-serif;color: #ffd900; font-size: 36px; margin-bottom: 30px;}
+#content .world .odd dd{text-align: justify; line-height: 2em; font-size: 20px; font-family: 'Cabin', sans-serif;color: #fff;}
+
+#content .world .even img{float: right; width: 48%; margin-left: 2%; border-radius:  50% 10%/10% 50% ;}
+#content .world .even {overflow: hidden;  margin-bottom: 60px;}
+#content .world .even dl{padding-top: 30px; float: left; width: 48%; margin-right: 2%;}
+#content .world .even dt{text-align: center; font-family: 'Cabin', sans-serif;color: #ffd900; font-size: 36px; margin-bottom: 30px;}
+#content .world .even dd{text-align: justify; line-height: 2em; font-size: 20px; font-family: 'Cabin', sans-serif;color: #fff;}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    #content .world .odd dl{padding-top: 0px;}
+    #content .world .even dl{padding-top: 0px;}
+    #content .world .odd dt{font-size: 30px; margin-bottom: 20px;}
+    #content .world .odd dd{text-align: justify; line-height: 1.6em; font-size: 18px;}
+    
+    #content .world .even dt{ font-size: 30px; margin-bottom: 20px;}
+    #content .world .even dd{line-height: 1.6em; font-size: 18px;}
+  
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+
+   #content h2{font-size: 150px;}
+   #content .toystory p{line-height: 1.5em; font-size: 16px;}
+   #content .world p{line-height: 1.5em; font-size: 16px;}
+   #content .world .odd dt{font-size: 24px; margin-bottom: 20px;}
+   #content .world .odd dd{line-height: 1.5em; font-size: 16px;}
+   #content .world .even dt{ font-size: 24px; margin-bottom: 20px;}
+   #content .world .even dd{line-height: 1.5em; font-size: 16px;}
+
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   
+    #content h2{font-size: 120px;}
+    #content h3{font-size: 56px;}
+    #content .toystory .story_img2 ul li:nth-of-type(1){float: left; width: 100%;}
+    #content .toystory .story_img2 ul .last{display: none;}
+    #content .sentance{height: 250px;}
+    #content .sentance>p{margin-top: 100px; font-size: 38px;}
+    #content .world .odd dl{width: 100%; margin-bottom: 60px;}
+    #content .world .even dl{width: 100%;margin-bottom: 60px;}
+    #content .world .odd img{width: 100%; margin-bottom: 60px; border-radius: 50px 0;}
+    #content .world .odd dt{font-size: 28px; margin-bottom: 20px;}
+    #content .world .odd dd{line-height: 1.5em; font-size: 16px;}
+    #content .world .even img{width: 100%; margin-bottom: 60px; border-radius: 50px 0;}
+    #content .world .odd {margin-bottom: 60px;}
+    
+    #content .world .even dt{font-size: 28px; margin-bottom: 20px;}
+    #content .world .even dd{line-height: 1.5em; font-size: 16px;}
+    #content .world .world_img img:nth-of-type(1){width: 100%;}
+    #content .world .world_img img:nth-of-type(2){display: none;}
+}
+
+ 
+	
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+
+    #content h2{font-size: 80px; }
+    #content h3{font-size: 50px;}
+    #content .toystory .story_img2 ul li:nth-of-type(1){display: none;}
+    #content .toystory .story_img li:nth-of-type(1){width: 100%; }
+    #content .sentance>p{text-align: center; margin-top: 110px; font-size: 24px;}
+	
+}
+
+@media screen and (max-width:480px){
+    #wrap { min-width:320px; }
+   
+
+}
+
+
+
