@@ -1,0 +1,108 @@
+/* CSS Document */
+
+/* 비주얼 영역 */
+.visual{position: relative;width: 100%;overflow: hidden;}
+.visual img{width: 30%;display: block;}
+.visual .gallery {position: relative;left: 0;top: 0;width: 1000%;overflow: hidden;}
+.visual .gallery ul{list-style: none;}
+.visual .gallery ul li{ float:left; position: relative;width: 33.33%;}
+
+/* .visual .dock{width:500px; position:absolute; left:882px; top:815px;}
+
+.visual .dock span.mbutton{ margin-right:20px; cursor:pointer; display:block;
+    float:left;  width:22px; height:22px; background: #fff; border-radius:15px; transition: all .5s}
+.visual .dock .ps{ margin-right:15px; margin-top: -2px; cursor:pointer; display:block; float:left; 
+    width:26px; height:26px; background:url(../images/play.png)center center no-repeat;} */
+
+/* 본문 콘텐츠 영역 */   
+
+/* 운영시간 */
+#content{width: 100% ;margin: 0 auto;}
+#content .operating_hours{overflow: hidden; }
+#content .operating_hours::after{content: ''; display: block; width: 200%; height: 1px;
+     background: #ccc; position: absolute; left:0}
+
+#content .operating_hours p{font-size: 1rem; color: #333; 
+    font-family: 'Nanum Gothic'; font-weight: 700; text-align: center;  margin: 10px 0; padding: 20px;}
+#content .operating_hours p img{margin-top: -5px;}
+/* 할인정보 */
+#content .discont{width: 100%; padding:50px 0; margin: 0 auto; border-top: 1px solid #ccc;} 
+#content .discont h3{margin-bottom: 15px; text-align: center; font-size: 26px;  font-family: 'Roboto'; font-weight: 700; color: #333; text-transform: capitalize;}
+#content .discont p {margin-bottom: 14px; text-align: center;  font-weight: 700; 
+    color: #666;font-family: 'Roboto'; font-weight:400 ; font-size: 20px;}   
+
+#content .discont ul{overflow: hidden; width: 90%; margin: 0 5%;}
+#content .discont li{width:50%;float:left ; border: 1px solid #ccc; box-sizing: border-box;}
+#content .discont li a{display: block;font-family: 'Nanum Gothic'; font-weight: 400;}
+/* #content .discont li a:link{color: #333; text-decoration: none;} */
+#content .discont li img{width: 100%;}
+#content .discont li span{display: block; line-height: 1.5em; text-align: center; margin-bottom: 20px; }
+#content .discont .more{display: block;font-family: 'Nanum Gothic'; padding:15px 0 ; background:#892fd5 ;
+      border-radius: 25px; color:#fff; text-align:center;width: 220px; margin:30px auto 0px; transition: all .5s}
+
+
+/* 공연정보 */
+
+#content .performance{font-family: 'Nanum Gothic'; padding:60px 0; background: orangered; }
+#content .performance h3{margin-bottom: 14px; text-align: center; font-size: 26px; font-weight: 700; color: #fff;}
+#content .performance p{margin-bottom: 50px; text-align: center; color: #fff; font-weight:400 ; font-size: 18px;}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+#content .performance img{width: 80%; margin: 0 10% 40px;}
+      
+#content .performance .swiper-slide a{color: #fff; display: block; position: absolute; bottom:0;  font-size: 20px; text-align: center;}
+
+      
+#content .performance .btn{text-align:center;}
+#content .performance .btn a{display: inline-block; vertical-align:middle; margin-left:20px; }
+#content .performance .btn a:first-child{margin-left:0;}
+#content .performance .more{width: 220px; height: 54px; line-height:50px; background:#fff; border-radius: 30px; border: 2px solid #fff; 
+    color: #333; font-size:14px; font-weight: 700; text-align:center; box-sizing:border-box; transition: all .5s;}
+#content .performance .more:hover{background: orangered; color: #fff;}
+
+
+
+/* 어트랙션 */
+
+#content .attraction {font-family: 'Nanum Gothic'; padding:60px 0; background: #15b549 }
+#content .attraction h3{text-align: center; font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 14px;}
+
+
+/* #content .attraction ul li{float:left; width: 45%;  margin:25px 16px -7px 0px;} */
+#content .attraction ul{overflow:hidden; width: 90%; margin:0 5%;}
+#content .attraction ul li{float:left; width: 48%; overflow: hidden; margin:27px 1% -12px;}
+#content .attraction ul li .image{position: relative;}
+#content .attraction ul li img{width: 100%;}
+#content .attraction ul li a{display: block;} 
+#content .attraction ul li span{ font-family:'Nanum Gothic';display: block;position: absolute;width:100%;
+     top:50%; margin-top: -10px; 
+    text-align: center;color: white;font-size: 1.2rem;text-shadow: 0 0 10px black;font-weight: bold;}
+#content .attraction ul li:first-child{width: 98%;}
+#content .attraction ul li:last-child{width:98%;}
+
+#content .attraction  .more{display: block; width: 220px; height: 54px; line-height:50px; background:#fff; border-radius: 30px; font-size:14px; 
+    text-align:center; box-sizing:border-box; border: 2px solid #fff; color: #333; font-weight: 700; margin: 45px auto 0; transition: all .5s}
+

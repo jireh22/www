@@ -1,0 +1,16 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+
+.visual { background-image: url(../images/sub_images/visual01.png);}
+
+#content .content_area .box{ text-align: center; position: relative;}
+#content .content_area .box p{font-size: 1.2rem; font-family: 'Nanum Gothic';text-align:center;color:#f07404; font-weight: bold; 
+    margin:0 30px; border: 1px solid #ccc; padding: 50px; background: #fffbef; border-radius: 50px 0; 
+    box-shadow: 10px 10px 25px 1px rgb(0 0 0 /10%);}
+#content .content_area .box img{width: 110px; height: 150px;margin-top: -50px;margin-right:-138px;margin-left: -143px}
+#content .content_area ul{margin: 30px; font-family: 'Nanum Gothic';}
+#content .content_area ul li {font-size: 1rem; line-height:1.7em; }
+
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #f07404; border-top:2px solid #f07404; width: 98%;margin: 40px 1%;}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;}
+#content .content_area th.head{background: #f7f7f7;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; }

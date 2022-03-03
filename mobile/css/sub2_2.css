@@ -1,0 +1,31 @@
+.visual { background-image: url(../images/sub_images/visual02.png);}
+
+#content .discont{} 
+#content .discont>p {margin-bottom: 50px; text-align: center;  font-weight: 700; 
+    color: #892fd5;;font-family: 'Roboto'; font-weight:400 ; font-size: 1.5rem;}   
+#content .discont ul{overflow: hidden; margin:5%; width: 90%;}
+#content .discont li{width:50%;float:left ; border: 1px solid #ccc; text-align: center; box-sizing: border-box;}
+
+#content .discont li a{display: block;font-family: 'Nanum Gothic'; font-weight: 400;}
+#content .discont li img{margin: 15px 0 30px; width: 100%;}
+#content .discont li span{display: block; line-height: 1.5em;}
+
+.discont .box{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: fixed;
+    left: 0;top: 0;display: none;z-index: 100;} 
+  
+.discont ul li .big{ width: 100%;border: 5px solid #333;background: #fff;position: absolute;
+    padding: 10px;top:0%; margin: 10% 0;left: 0; overflow: hidden;
+    display: none;z-index: 110;}
+.discont ul li .big img{width: 100%;}
+.discont .big p{text-align: center;padding: 10px;line-height: 2.5em; font-size: 20px; font-weight: bold;font-family: 'Nanum Gothic';}
+.discont .big p strong{font-size: 24px; color: #892fd5;background: linear-gradient(to top, #f8def2ec 40%, transparent 40%); }
+  
+.discont .big .closeBtn{display: block; text-align: center;background: #fff; padding: 20px;}
+.discont .big .closeBtn:hover{background-color: #892fd5; color: #fff;}
+  
+#content .content_area table{border-collapse: collapse; border-bottom: 2px solid #892fd5; border-top:2px solid #892fd5; width:100%; margin-bottom: 25px;
+    font-size: 17px;font-family: 'Nanum Gothic';}
+#content .content_area th{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc; text-align: center;border-left: 1px solid #ccc; border-right: 1px solid #ccc; background: #efdcff;}
+#content .content_area th.head{background: #f7f7f7;}
+#content .content_area td{padding: 15px 0 15px 0; border-bottom: 1px solid #ccc;text-align: center; border-left: 1px solid #ccc; border-right: 1px solid #ccc; padding: 15px;}
+#content .content_area td.list{text-align: justify;line-height: 1.5em;}

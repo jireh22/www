@@ -1,0 +1,34 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+.visual { background-image: url(../images/sub_images/visual04.png);}
+
+
+#content .content_area{text-align:center;position: relative;}
+#content .content_area>p{font-family: 'Nanum Gothic'; font-size:1.2rem; font-weight: bold; margin: 10px;}
+#content .content_area>p>span{color: #9030fd;}
+#content .content_area .all {display: block; position: absolute; top: 60px; right: 25px; font-size: 30px;}
+#content .content_area .all:hover {color: #9030fd;}
+#content .content_area .faq_box{margin: 90px 0; border-top: 2px solid #333;}
+#content .content_area .faq {width:100%; font-size:1rem; font-weight: bold; font-family:'Nanum Gothic';
+    text-align:justify;}   
+
+#content .content_area .faq .q{border-bottom:1px solid #ddd} 
+#content .content_area .faq .q a.trigger strong{font-size: 1.4rem;}
+
+#content .content_area .faq .q a.trigger span{float: right; }
+#content .content_area .faq .q a.trigger .btn{}
+
+#content .content_area .faq .q a.trigger{display:block;padding:30px;color:#333;} 
+#content .content_area .faq .hide .q a.trigger{font-weight:normal;background:none}  
+#content .content_area .faq .q a.trigger:hover,  
+#content .content_area .faq .q a.trigger:active,  
+#content .content_area .faq .q a.trigger:focus{background:#9030fd;color:#fff}   
+#content .content_area .faq .a{padding:20px;line-height:1.5em;overflow:hidden; text-align: justify;font-size:1rem;display: none; background: #eeeeee;} 
+#content .content_area .faq .a i{padding-right: 20px; color: #9030fd; font-style: normal;}
+#content .content_area .hidden{display: block; position: absolute; left: -1000%; top: 0; width: 1px;}
+
+
+
+
+
+
+

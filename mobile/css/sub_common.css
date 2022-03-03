@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* sub1 공통 - 비주얼/ 서브네비/타이틀영역 */
+
+/* visual */
+.visual { 
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .visual h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+    position: relative;
+    text-align: center;
+    top: 55%;
+   
+  }
+
+#content .title_area h2 {
+    font-size: 2rem; 
+    text-align: center;
+    font-family: 'Nanum Gothic'; 
+    font-weight: bold; 
+    padding: 30px;
+  }
+
+#content .title_area h2::before{ 
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    top: 272px; 
+    left: 50%;  
+    width: 82px;
+    height: 5px;
+    background:blueviolet;
+    margin-left: -40px;
+  }

@@ -1,0 +1,29 @@
+/* 각각의 페이지의 내용 콘텐츠 영역 - 회사소개 내용 */
+.visual { background-image: url(../images/sub_images/visual03.png);}
+
+.intro{text-align:center;}
+.intro .point{text-align:center; font-size: 1.5rem; margin: 20px; line-height:1.3em; font-family: 'Nanum Gothic'; }
+.intro .point span{display:block; font-weight: bold; }
+.intro .point strong{background: linear-gradient(to top, rgb(228 228 255) 40%, transparent 40%);}
+.intro p{margin:30px 0 0; line-height:2;text-align:justify; }
+
+
+#content .content_area ul{overflow: hidden; border: 1px solid #ccc; width: 100%; margin: 25px 0px; }
+#content .content_area ul li{float: left; width: 20%; height: 120px; box-sizing:border-box; background: rgb(0, 87, 54); }
+#content .content_area ul li:hover{background: rgb(255, 59, 0); transition: .5s;}
+
+#content .content_area ul li a{display: block; text-align: center;font-size: 1rem;padding: 18px 2px; 
+   font-family: 'Nanum Gothic'; transition: all .5s; color: #fff;}
+
+
+.container body {text-align: center; margin: 50px;}
+.container img{width:100%;}
+.container h3{font-family: 'Nanum Gothic'; font-size: 24px; margin-top: 50px; margin-bottom: 20px;}
+.container p{font-family: 'Nanum Gothic'; font-size: 20px; line-height: 1.7em;}
+
+
+#details {text-align: center;}
+#details img{width:95%;}
+#details h3{font-family: 'Nanum Gothic'; font-size: 1.2rem; margin-top: 50px; margin-bottom: 20px; font-weight: bold;}
+#details p{font-family: 'Nanum Gothic'; font-size: 1rem; line-height: 1.7em; margin: 10px 20px 50px;}
+

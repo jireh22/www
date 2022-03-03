@@ -1,0 +1,41 @@
+.visual { background-image: url(../images/sub_images/visual03.png);}
+
+.intro{text-align:center;}
+.intro img{margin:0 0 20px;}
+.intro .point{text-align:center; font-size: 1.5rem; margin: 30px; line-height:1.3em; font-family: 'Nanum Gothic'; }
+.intro .point span{display:block; /*font-.attraction ul li .bigweight: bold;*/ }
+.intro .point strong{background: linear-gradient(to top, #dee0f8 40%, transparent 40%);}
+.intro p{margin:30px 0 0; line-height:2;text-align:justify; }
+
+
+
+#content .content_area .box{}
+#content .content_area ul{ overflow: hidden; width: 100%;}
+#content .content_area ul li {width:47%; margin:1%; float:left; text-align: center; font-weight: bold;
+    line-height: 1.5;  border: 1px solid #ccc; transition: all .5s;}
+
+/* #content .content_area ul li:hover {transform: scale(1.1); box-shadow: 2px 2px 5px 1px rgba(0,0,0,.3);} */
+
+#content .content_area ul li a{ display: block;font-family : 'Nanum Gothic'; padding:22px 0 22px;  font-size: 20px;  background: #21a500;color: #fff;}
+#content .content_area ul li > img{ width:100%;}
+
+
+/* a{text-decoration: none;color: #333;}  */
+
+.attraction .box{width: 100%;height: 100%;background: rgba(0,0,0,.7);position: fixed;
+    left: 0;top: 0;display: none;z-index: 100;} 
+
+/* .attraction ul li .big{ width:100%;border: 5px solid #333;background: #fff;position: absolute;
+    padding: 10px;left: 50%;margin-left: -320px;top:50%;margin-top: -290px;overflow: hidden;
+    display: none;z-index: 110;} */
+
+.attraction ul li .big{ width:100%;border: 5px solid #333;background: #fff;position: absolute;
+        padding: 10px;left: 50%;margin: -50%;top:50%;overflow: hidden;
+        display: none;z-index: 110;}   
+.attraction ul li .big img{width: 80%; margin: 30px 0;}
+
+.attraction p{text-align: center;padding: 10px;line-height: 1.7em;}
+.attraction p strong{font-size: 24px; color: rgb(22, 104, 15);background: linear-gradient(to top, #e8fa83 40%, transparent 40%); }
+
+.attraction .big .closeBtn{display: block; text-align: center;background: #fff; padding: 20px;}
+.attraction .big .closeBtn:hover{background-color: #208806; color: #fff;}
